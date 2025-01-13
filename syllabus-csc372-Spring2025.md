@@ -148,7 +148,7 @@ The final project is a group project and will include both a programming aspect 
 
 * These opportunities can be done as many times as you would like:
     * (4 points) Provide a substantive answer to another student’s question on piazza before the instructor or TAs answers that question.
-    * (4 points) Provide a unique and relevant question for use in electronic flashcards, quizzes, and/or exams.  Email to both TAs and the instructor for evaluation.
+    * (4 points) Provide a unique and relevant question and answer for use in electronic flashcards, quizzes, and/or exams.  Email to both TAs and the instructor for evaluation.
     * (4 points) On a submitted assignment, list a source relevant to the material that the instructor has not seen before that would be useful for the rest of the class.
     * (4 points) Create a study guide/cheat sheet for a graded quiz or exam.
     * (2 points) Document and send an error from the course materials to the instructor.  Note you have to email the documented error BEFORE the error has been fixed.
