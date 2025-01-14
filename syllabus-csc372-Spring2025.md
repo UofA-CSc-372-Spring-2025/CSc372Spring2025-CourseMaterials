@@ -72,218 +72,6 @@ By the end of this class, students should be able to
 * write a lexer and recursive descent parser for a simple language
 * use AI generation tools for comparing and contrasting programming languages
 
-## Makeup Policy for Students Who Register Late
-
-If you register late for the course, you are encouraged to work through the material that you missed, but none of the work can be submitted for a grade past the original deadline.
-
-
-## Course Communications & Tools
-
-There will be various ways that communication will take place in this course, and it is important that you keep track of all of them.
-
-* **The Syllabus**: You are expected to be familiar with the policies in the syllabus. If you have a question about the course expectations and policies, this is the first place you should look for an answer.  The syllabus will be available on Piazza and D2L.
-* **Lectures**: Sometimes things are announced in class, so if you are not present in class, make sure you check with another student to find out what you missed.
-* **Email**: If we need to contact you individually, we will do so through your UA email, so make sure you check that regularly.
-* **D2L**: Announcements may be made on D2L, so make sure you check that page regularly. I recommend checking both the announcements and the calendar on a daily basis (at least during the week). You can also keep up with your grades on D2L. You can also set up D2L to send you notifications when things are posted.
-* **Piazza**: Announcements may be made on Piazza, and links to all of the course slides will be posted on Piazza.  Piazza is the main webpage for this course.  The primary use of Piazza will be for questions and discussions *about course content*. 
-    * **Please do not use Piazza to ask about grades or request a regrade.  Instead send a direct email to Dr. Strout and the TAs.**
-    * Make sure you add yourself and check regularly for announcements. Add yourself to the course by using this link: [https://piazza.com/arizona/spring2025/csc372](https://piazza.com/arizona/spring2025/csc372) 
-    * Note that although you can post anonymously to other students, none of your posts will be anonymous to your instructor or the TAs.
-* **Gradescope**: This is where most assignments will be submitted and graded, which means it is the first place those grades will be released.
-* **GitHub Classroom**: You will be expected to develop your programs using GitHub, where there will be some preliminary testing provided.  Program assignments will then be submitted to Gradescope.
-* **Docker Desktop**: A docker container with installations for all three programming environments will be provided.  Using the docker container is optional, and you are welcome to install the development environments some other way.  The instructor and the TAs will only help people with issues involved in using the docker container, the autochecking that happens in GitHub, or the autograding that happens in Gradescope.
-
-## Recommended Texts or Readings
-
-Will be provided as links on syllabus.md in GitHub.
-
-
-## Required or Special Materials
-
-* Device to program with, probably a laptop
-* Access to the Internet and a GitHub account
-* Able to install Docker desktop on device you are programming with
-
-## Assignments and Examinations: Schedule/Due Dates
-
-
-### Exams. (500 points)
-
-There will be two midterms and a final exam. See the schedule for the dates.
-
-* Midterm 1 is worth 100 points.  Midterm 2 and the Final are worth 200 points each. 
-* If your final exam score is better than your second midterm score, I will replace the second midterm score with the final exam score. 
-* Make-ups will not be given unless you provide a Dean’s excuse or a letter from the Dean of Students office indicating an emergency situation. 
-* Exams are cumulative.
-* For each exam, you can have a two-sided, 8.5x11 inch study guide that you will need to turn in with your exam.  If you place your full name on the study guide, then it will be handed back after the exam has been graded.
-
-### Small Assignments (100 points)
-
-There will be 8 small assignments, each worth 15 points. The total points you earn for all of the small assignments will be capped at 100 to provide some flexibility. These assignments can basically be of any type (writing, reading, coding, learning how to use various tools, etc.), so you will have to read and follow all the instructions carefully. 
-
-* These assignments will be released on Wednesday (or earlier) and will be due the following Wednesday by 11:59 PM. See the schedule for details. 
-* These assignments will not be accepted late, and there will be no make-ups. 
-* If you provide a Dean’s Excuse or a letter from the Dean of Students office indicating an emergency situation that stopped you from being able to complete the work, an assignment may be excused. 
-
-### Large Assignments (100 points)
-
-* These are larger assignments for which you have about 2 weeks. They are primarily programming assignments, but they may have other components as well. Each one is worth 40 points. (There are three – one for SML, one for Prolog, and one for Chapel.)  The total points you can earn for all of the large assignment combined will be capped at 100 points to provide some flexibility.
-* These assignments will not be accepted late.
-* You must follow all the submission guidelines given in the spec. Improperly submitted assignments will not be accepted.
-* Once the grades are released, you will have 72 hours to fix any issues and resubmit. Only one resubmission is allowed, and it will result in an automatic 20-point deduction. For your resubmission to be graded, you must email your instructor and TAs to let us know you have resubmitted. This must be done within the 72-hour timeframe or it will not be accepted. Furthermore, a resubmission implies that you actually submitted it the first time. We will not accept a resubmission if you did not submit it the first time by the appropriate deadline.
-* These assignments are released on Fridays and due two weeks later (on Friday) at 11:59 PM. See the schedule for details. 
-* Extensions are only given in valid situations that are indicated by Dean’s Excuses or a letter from the Dean of Students office indicating an emergency situation. 
-
-### Quizzes/In-class Assignments. (100 points)
-
-Often there will be assignments and/or quizzes during class. These are generally unannounced, and the style and points will vary. Some will be individual, some in groups; some will be closed-note quizzes, some open-note; some will be coding, some hand-written, etc. There will be at least 120 points in this category, and your points toward the final grad will be capped at 100, so there is some flexibility. These assignments can cover anything from the course, but will often cover material from the most recent classes (including the stuff from the same day) and material from recent assignments. These assignments cannot be made up. If you provide a Dean’s Excuse or a letter from the Dean of Students office indicating an emergency situation that stopped you from being able to complete the work, an assignment may be excused. 
-
-Note that the first of these assignments will be given on the first day of class and will be graded for completion as it is a pre-assessment to see what everyone knows coming into the course. Since I do not want to assume you know something that you do not already know, nor do we want to spend too much time going over things you already know, it is in everyone’s best interest for you to answer the questions in a way that reflects your knowledge. The second of these assignments is another quiz on the second day of class and will ask you questions about the syllabus. 
-
-### Final Project (200 points)
-
-The final project is a group project and will include both a programming aspect and a presentation aspect (but not in class). Details will be provided later. The final deadline for this is given in the calendar, but there will likely be smaller deadlines leading up to that as well. If you miss those intermediary deadlines, you will not get credit for that part of the project. For the final deadline, each day late will result in a 70-point deduction (so there’s really no point turning it in more than 2 days late.) This project is due at 11:59 PM and must be submitted according to the instructions given in the spec. 
-
-### Extra Credit Opportunities. (40 points maximum)
-
-* These opportunities can be done as many times as you would like:
-    * (4 points) Provide a substantive answer to another student’s question on piazza before the instructor or TAs answers that question.
-    * (4 points) Provide a unique and relevant question and answer for use in electronic flashcards, quizzes, and/or exams.  Email to both TAs and the instructor for evaluation.
-    * (4 points) On a submitted assignment, list a source relevant to the material that the instructor has not seen before that would be useful for the rest of the class.
-    * (4 points) Create a study guide/cheat sheet for a graded quiz or exam.
-    * (2 points) Document and send an error from the course materials to the instructor.  Note you have to email the documented error BEFORE the error has been fixed.
-    * (2 points) Document an error produced by an LLM or AI generator with a screenshot and an explanation about why it is an error.  The error must be related to the course material.
-* (10 points) Do one extra peer review of the term project.  Can only be done once for extra credit.
-* Only one of the below options can be done.  And it can only be done once for extra credit.
-    * (20 points) Before MT1, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
-    * (10 points) Before MT2, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
-    * (4 points) Before Reading Day, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
-
-    ### Final Examination
-
-    Our final exam is on Wednesday, May 14, 2025 from 3:30 - 5:30 PM in our regular classroom.
-
-    Final Exam Regulations and Final Exam Schedule: [https://registrar.arizona.edu/faculty-staff-resources/room-class-scheduling/schedule-classes/final-exams](https://registrar.arizona.edu/faculty-staff-resources/room-class-scheduling/schedule-classes/final-exams )  
-
-
-## Grading Scale and Policies
-
-Your grade will be calculated based on how many points you earn (out of 1000), so every point in the class is equally weighted. A summary of the point distribution is below.
-
-
-<table>
-  <tr>
-   <td><strong>Category/Assignment</strong>
-   </td>
-   <td><strong>Points</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Small Assignments (SA)
-   </td>
-   <td>100
-   </td>
-  </tr>
-  <tr>
-   <td>Large Assignments (LA)
-   </td>
-   <td>100
-   </td>
-  </tr>
-  <tr>
-   <td>In-class Assignments/Quizzes (ICA/Q)
-   </td>
-   <td>100
-   </td>
-  </tr>
-  <tr>
-   <td>Final Project (FP)
-   </td>
-   <td>200
-   </td>
-  </tr>
-  <tr>
-   <td>Midterm (MT1)
-   </td>
-   <td>100
-   </td>
-  </tr>
-  <tr>
-   <td>Midterm (MT2)
-   </td>
-   <td>200
-   </td>
-  </tr>
-  <tr>
-   <td>Final (F)
-   </td>
-   <td>200
-   </td>
-  </tr>
-</table>
-
-
-To pass this course (receive a D or higher), you must earn at least 360/600 (60%) of the in class points (ICA/Q, MT1, MT2, and F).  Assuming that has been achieved, then your overall course grade will be assigned as follows based on the number of total points in the course: 
-
-
-<table>
-  <tr>
-   <td><strong>Points</strong>
-   </td>
-   <td><strong>Grade</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>900+
-   </td>
-   <td>A
-   </td>
-  </tr>
-  <tr>
-   <td>800-899
-   </td>
-   <td>B
-   </td>
-  </tr>
-  <tr>
-   <td>700-799
-   </td>
-   <td>C
-   </td>
-  </tr>
-  <tr>
-   <td>600-699
-   </td>
-   <td>D
-   </td>
-  </tr>
-  <tr>
-   <td>0-599
-   </td>
-   <td>E
-   </td>
-  </tr>
-</table>
-
-University policy regarding grades and grading systems is available at [https://catalog.arizona.edu/policy/courses-credit/grading/grading-system](https://catalog.arizona.edu/policy/courses-credit/grading/grading-system) 
-
-
-## Incomplete (I) or Withdrawal (W):
-
-Requests for incomplete (I) or withdrawal (W)  must be made in accordance with University policies, which are available at [https://catalog.arizona.edu/policy/courses-credit/grading/grading-system](https://catalog.arizona.edu/policy/courses-credit/grading/grading-system).
-
-
-## Dispute of Grade Policy
-
-* Regrade requests and grade disputes must be handled within 72 hours of the grade being released or by a specific deadline posted in a D2L announcement or Gradescope email.
-* You must also follow the instructions for how to handle regrade requests, which will be given when the grades for an assignment are released. 
-* The specific guidelines may vary depending on the assignments, so make sure you read the announcements and/or Gradescope emails when the grades are released. 
-
-## Honors Credit
-
-Students wishing to contract this course for Honors Credit should e-mail me to set up an appointment to discuss the terms of the contact and to sign the Honors Course Contract Request Form. The form is available at [http://www.honors.arizona.edu/honors-contracts](http://www.honors.arizona.edu/honors-contracts) 
-
-
 ## Scheduled Topic and Activities
 
 **Note: This is a tentative schedule and may change as necessary.**
@@ -308,9 +96,9 @@ Students wishing to contract this course for Honors Credit should e-mail me to s
   <tr>
    <td>Introduction
    </td>
-   <td>Evaluating PLs
+   <td><a href=https://www.youtube.com/watch?v=pkDz62xz15k>Comparing How PLs are Used</a>
 <p>
-Spaced repetition
+<a href=https://ncase.me/remember/>Spaced repetition</a>
    </td>
    <td>SA #1 (W)
    </td>
@@ -336,9 +124,9 @@ Spaced repetition
 <p>
 Types
    </td>
-   <td>TBD
+   <td><a href=https://www.cl.cam.ac.uk/~lp15/MLbook/PDF/chapter1.pdf>Chapter 1 of "ML for the Working Programmer"</a>
 <p>
-TBD
+<a href=https://cs.lmu.edu/~ray/notes/types/>Dr. Ray Toal Notes on Types</a>
    </td>
    <td>SA #2 (W)
    </td>
@@ -735,6 +523,220 @@ LA #3 (F)
 
 
 *This is the final due date, but there will likely be intermediary deadlines for various tasks as well.
+
+
+## Makeup Policy for Students Who Register Late
+
+If you register late for the course, you are encouraged to work through the material that you missed, but none of the work can be submitted for a grade past the original deadline.
+
+
+## Course Communications & Tools
+
+There will be various ways that communication will take place in this course, and it is important that you keep track of all of them.
+
+* **The Syllabus**: You are expected to be familiar with the policies in the syllabus. If you have a question about the course expectations and policies, this is the first place you should look for an answer.  The syllabus will be available on Piazza and D2L.
+* **Lectures**: Sometimes things are announced in class, so if you are not present in class, make sure you check with another student to find out what you missed.
+* **Email**: If we need to contact you individually, we will do so through your UA email, so make sure you check that regularly.
+* **D2L**: Announcements may be made on D2L, so make sure you check that page regularly. I recommend checking both the announcements and the calendar on a daily basis (at least during the week). You can also keep up with your grades on D2L. You can also set up D2L to send you notifications when things are posted.
+* **Piazza**: Announcements may be made on Piazza, and links to all of the course slides will be posted on Piazza.  Piazza is the main webpage for this course.  The primary use of Piazza will be for questions and discussions *about course content*. 
+    * **Please do not use Piazza to ask about grades or request a regrade.  Instead send a direct email to Dr. Strout and the TAs.**
+    * Make sure you add yourself and check regularly for announcements. Add yourself to the course by using this link: [https://piazza.com/arizona/spring2025/csc372](https://piazza.com/arizona/spring2025/csc372) 
+    * Note that although you can post anonymously to other students, none of your posts will be anonymous to your instructor or the TAs.
+* **Gradescope**: This is where most assignments will be submitted and graded, which means it is the first place those grades will be released.
+* **GitHub Classroom**: You will be expected to develop your programs using GitHub, where there will be some preliminary testing provided.  Program assignments will then be submitted to Gradescope.
+* **Docker Desktop**: A docker container with installations for all three programming environments will be provided.  Using the docker container is optional, and you are welcome to install the development environments some other way.  The instructor and the TAs will only help people with issues involved in using the docker container, the autochecking that happens in GitHub, or the autograding that happens in Gradescope.
+
+## Recommended Texts or Readings
+
+Will be provided as links on syllabus.md in GitHub.
+
+
+## Required or Special Materials
+
+* Device to program with, probably a laptop
+* Access to the Internet and a GitHub account
+* Able to install Docker desktop on device you are programming with
+
+## Assignments and Examinations: Schedule/Due Dates
+
+
+### Exams. (500 points)
+
+There will be two midterms and a final exam. See the schedule for the dates.
+
+* Midterm 1 is worth 100 points.  Midterm 2 and the Final are worth 200 points each. 
+* If your final exam score is better than your second midterm score, I will replace the second midterm score with the final exam score. 
+* Make-ups will not be given unless you provide a Dean’s excuse or a letter from the Dean of Students office indicating an emergency situation. 
+* Exams are cumulative.
+* For each exam, you can have a two-sided, 8.5x11 inch study guide that you will need to turn in with your exam.  If you place your full name on the study guide, then it will be handed back after the exam has been graded.
+
+### Small Assignments (100 points)
+
+There will be 8 small assignments, each worth 15 points. The total points you earn for all of the small assignments will be capped at 100 to provide some flexibility. These assignments can basically be of any type (writing, reading, coding, learning how to use various tools, etc.), so you will have to read and follow all the instructions carefully. 
+
+* These assignments will be released on Wednesday (or earlier) and will be due the following Wednesday by 11:59 PM. See the schedule for details. 
+* These assignments will not be accepted late, and there will be no make-ups. 
+* If you provide a Dean’s Excuse or a letter from the Dean of Students office indicating an emergency situation that stopped you from being able to complete the work, an assignment may be excused. 
+
+### Large Assignments (100 points)
+
+* These are larger assignments for which you have about 2 weeks. They are primarily programming assignments, but they may have other components as well. Each one is worth 40 points. (There are three – one for SML, one for Prolog, and one for Chapel.)  The total points you can earn for all of the large assignment combined will be capped at 100 points to provide some flexibility.
+* These assignments will not be accepted late.
+* You must follow all the submission guidelines given in the spec. Improperly submitted assignments will not be accepted.
+* Once the grades are released, you will have 72 hours to fix any issues and resubmit. Only one resubmission is allowed, and it will result in an automatic 20-point deduction. For your resubmission to be graded, you must email your instructor and TAs to let us know you have resubmitted. This must be done within the 72-hour timeframe or it will not be accepted. Furthermore, a resubmission implies that you actually submitted it the first time. We will not accept a resubmission if you did not submit it the first time by the appropriate deadline.
+* These assignments are released on Fridays and due two weeks later (on Friday) at 11:59 PM. See the schedule for details. 
+* Extensions are only given in valid situations that are indicated by Dean’s Excuses or a letter from the Dean of Students office indicating an emergency situation. 
+
+### Quizzes/In-class Assignments. (100 points)
+
+Often there will be assignments and/or quizzes during class. These are generally unannounced, and the style and points will vary. Some will be individual, some in groups; some will be closed-note quizzes, some open-note; some will be coding, some hand-written, etc. There will be at least 120 points in this category, and your points toward the final grade will be capped at 100, so there is some flexibility. These assignments can cover anything from the course, but will often cover material from the most recent classes (including the stuff from the same day) and material from recent assignments. These assignments cannot be made up. If you provide a Dean’s Excuse or a letter from the Dean of Students office indicating an emergency situation that stopped you from being able to complete the work, an assignment may be excused. 
+
+Note that the first of these assignments will be given on the first day of class and will be graded for completion as it is a pre-assessment to see what everyone knows coming into the course. Since I do not want to assume you know something that you do not already know, nor do we want to spend too much time going over things you already know, it is in everyone’s best interest for you to answer the questions in a way that reflects your knowledge. The second of these assignments is another quiz on the second day of class and will ask you questions about the syllabus. 
+
+### Final Project (200 points)
+
+The final project is a group project and will include both a programming aspect and a presentation aspect (but not in class). Details will be provided later. The final deadline for this is given in the calendar, but there will likely be smaller deadlines leading up to that as well. If you miss those intermediary deadlines, you will not get credit for that part of the project. For the final deadline, each day late will result in a 70-point deduction (so there’s really no point turning it in more than 2 days late.) This project is due at 11:59 PM and must be submitted according to the instructions given in the spec. 
+
+### Extra Credit Opportunities. (40 points maximum)
+
+* These opportunities can be done as many times as you would like:
+    * (4 points) Provide a substantive answer to another student’s question on piazza before the instructor or TAs answers that question.
+    * (4 points) Provide a unique and relevant question and answer for use in electronic flashcards, quizzes, and/or exams.  Email to both TAs and the instructor for evaluation.
+    * (4 points) On a submitted assignment, list a source relevant to the material that the instructor has not seen before that would be useful for the rest of the class.
+    * (4 points) Create a study guide/cheat sheet for a graded quiz or exam.
+    * (2 points) Document and send an error from the course materials to the instructor.  Note you have to email the documented error BEFORE the error has been fixed.
+    * (2 points) Document an error produced by an LLM or AI generator with a screenshot and an explanation about why it is an error.  The error must be related to the course material.
+* (10 points) Do one extra peer review of the term project.  Can only be done once for extra credit.
+* Only one of the below options can be done.  And it can only be done once for extra credit.
+    * (20 points) Before MT1, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
+    * (10 points) Before MT2, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
+    * (4 points) Before Reading Day, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
+
+    ### Final Examination
+
+    Our final exam is on Wednesday, May 14, 2025 from 3:30 - 5:30 PM in our regular classroom.
+
+    Final Exam Regulations and Final Exam Schedule: [https://registrar.arizona.edu/faculty-staff-resources/room-class-scheduling/schedule-classes/final-exams](https://registrar.arizona.edu/faculty-staff-resources/room-class-scheduling/schedule-classes/final-exams )  
+
+
+## Grading Scale and Policies
+
+Your grade will be calculated based on how many points you earn (out of 1000), so every point in the class is equally weighted. A summary of the point distribution is below.
+
+
+<table>
+  <tr>
+   <td><strong>Category/Assignment</strong>
+   </td>
+   <td><strong>Points</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Small Assignments (SA)
+   </td>
+   <td>100
+   </td>
+  </tr>
+  <tr>
+   <td>Large Assignments (LA)
+   </td>
+   <td>100
+   </td>
+  </tr>
+  <tr>
+   <td>In-class Assignments/Quizzes (ICA/Q)
+   </td>
+   <td>100
+   </td>
+  </tr>
+  <tr>
+   <td>Final Project (FP)
+   </td>
+   <td>200
+   </td>
+  </tr>
+  <tr>
+   <td>Midterm (MT1)
+   </td>
+   <td>100
+   </td>
+  </tr>
+  <tr>
+   <td>Midterm (MT2)
+   </td>
+   <td>200
+   </td>
+  </tr>
+  <tr>
+   <td>Final (F)
+   </td>
+   <td>200
+   </td>
+  </tr>
+</table>
+
+
+To pass this course (receive a D or higher), you must earn at least 360/600 (60%) of the in class points (ICA/Q, MT1, MT2, and F).  Assuming that has been achieved, then your overall course grade will be assigned as follows based on the number of total points in the course: 
+
+
+<table>
+  <tr>
+   <td><strong>Points</strong>
+   </td>
+   <td><strong>Grade</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>900+
+   </td>
+   <td>A
+   </td>
+  </tr>
+  <tr>
+   <td>800-899
+   </td>
+   <td>B
+   </td>
+  </tr>
+  <tr>
+   <td>700-799
+   </td>
+   <td>C
+   </td>
+  </tr>
+  <tr>
+   <td>600-699
+   </td>
+   <td>D
+   </td>
+  </tr>
+  <tr>
+   <td>0-599
+   </td>
+   <td>E
+   </td>
+  </tr>
+</table>
+
+University policy regarding grades and grading systems is available at [https://catalog.arizona.edu/policy/courses-credit/grading/grading-system](https://catalog.arizona.edu/policy/courses-credit/grading/grading-system) 
+
+
+## Incomplete (I) or Withdrawal (W):
+
+Requests for incomplete (I) or withdrawal (W)  must be made in accordance with University policies, which are available at [https://catalog.arizona.edu/policy/courses-credit/grading/grading-system](https://catalog.arizona.edu/policy/courses-credit/grading/grading-system).
+
+
+## Dispute of Grade Policy
+
+* Regrade requests and grade disputes must be handled within 72 hours of the grade being released or by a specific deadline posted in a D2L announcement or Gradescope email.
+* You must also follow the instructions for how to handle regrade requests, which will be given when the grades for an assignment are released. 
+* The specific guidelines may vary depending on the assignments, so make sure you read the announcements and/or Gradescope emails when the grades are released. 
+
+## Honors Credit
+
+Students wishing to contract this course for Honors Credit should e-mail me to set up an appointment to discuss the terms of the contact and to sign the Honors Course Contract Request Form. The form is available at [http://www.honors.arizona.edu/honors-contracts](http://www.honors.arizona.edu/honors-contracts) 
+
+
 
 
 ## Classroom Behavior Policy
