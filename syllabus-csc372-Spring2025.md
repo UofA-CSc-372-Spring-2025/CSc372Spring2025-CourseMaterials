@@ -614,11 +614,11 @@ The final project is a group project and will include both a programming aspect 
     * (10 points) Before MT2, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
     * (4 points) Before Reading Day, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
 
-    ### Final Examination
+### Final Examination
 
-    Our final exam is on Wednesday, May 14, 2025 from 3:30 - 5:30 PM in our regular classroom.
+Our final exam is on Wednesday, May 14, 2025 from 3:30 - 5:30 PM in our regular classroom.
 
-    Final Exam Regulations and Final Exam Schedule: [https://registrar.arizona.edu/faculty-staff-resources/room-class-scheduling/schedule-classes/final-exams](https://registrar.arizona.edu/faculty-staff-resources/room-class-scheduling/schedule-classes/final-exams )  
+Final Exam Regulations and Final Exam Schedule: [https://registrar.arizona.edu/faculty-staff-resources/room-class-scheduling/schedule-classes/final-exams](https://registrar.arizona.edu/faculty-staff-resources/room-class-scheduling/schedule-classes/final-exams )  
 
 
 ## Grading Scale and Policies
