@@ -96,9 +96,11 @@ By the end of this class, students should be able to
   <tr>
    <td>Introduction
    </td>
-   <td><a href=https://www.youtube.com/watch?v=pkDz62xz15k>Comparing How PLs are Used</a>
+   <td><li><a href=https://www.youtube.com/watch?v=pkDz62xz15k>Comparing How PLs are Used</a>
 <p>
-<a href=https://ncase.me/remember/>Spaced repetition</a>
+<li><a href=https://ncase.me/remember/>Spaced repetition</a>
+<p>
+<li><a href=https://cs.lmu.edu/~ray/notes/plstudy/>Dr. Ray Toal on Why Study PLs</a>
    </td>
    <td>SA #1 (W)
    </td>
@@ -124,9 +126,9 @@ By the end of this class, students should be able to
 <p>
 Types
    </td>
-   <td><a href=https://www.cl.cam.ac.uk/~lp15/MLbook/PDF/chapter1.pdf>Chapter 1 of "ML for the Working Programmer"</a>
+   <td><li><a href=https://www.cl.cam.ac.uk/~lp15/MLbook/PDF/chapter1.pdf>Chapter 1 of "ML for the Working Programmer"</a>
 <p>
-<a href=https://cs.lmu.edu/~ray/notes/types/>Dr. Ray Toal Notes on Types</a>
+<li><a href=https://cs.lmu.edu/~ray/notes/types/>Dr. Ray Toal on Types</a>
    </td>
    <td>SA #2 (W)
    </td>
