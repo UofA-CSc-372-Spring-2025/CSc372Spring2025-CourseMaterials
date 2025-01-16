@@ -12,7 +12,7 @@ CSc 372 Spring 2025 Assignment
 
 
 
-**Due Wednesday, January 21, 2025 at 11:59PM**
+**Due Wednesday, January 22, 2025 at 11:59PM**
 
 You can work with anyone on this assignment.  Each student does need
 to submit an assignment.
