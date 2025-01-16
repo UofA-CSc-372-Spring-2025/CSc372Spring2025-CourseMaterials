@@ -102,7 +102,7 @@ By the end of this class, students should be able to
 <p>
 <li><a href=https://cs.lmu.edu/~ray/notes/plstudy/>Dr. Ray Toal on Why Study PLs</a>
    </td>
-   <td>SA #1 (W)
+   <td><a href=https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa1-docker.md>SA #1</a> (W)
    </td>
    <td>
    </td>
