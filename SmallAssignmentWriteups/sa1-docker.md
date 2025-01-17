@@ -35,12 +35,6 @@ The assignment will be graded when you submit it to Gradescope.
 
 ## GitHub Setup
 
-Start by joining the GitHub classroom at https://classroom.github.com/classrooms/193099772-uofa-csc-372-spring-2025-classroom.
-
-If you are new to GitHub, you might want to accept the GitHub fundamentals
-assignment at https://classroom.github.com/a/KgmpZG-y and work through
-the material there first.
-
 Accept the github assignment at https://classroom.github.com/a/5CPJbvxS
 and do a git clone of your repository.  Make sure to `git commit -a` and
 `git push` frequently!  The initial github repository will include the 
@@ -50,6 +44,9 @@ following files:
  * hello.pl
  * hello.sml
 
+If you are new to GitHub, you might want to accept the GitHub fundamentals
+assignment at https://classroom.github.com/a/KgmpZG-y and work through
+the material there first.
 
 ## Create a docker container
 
