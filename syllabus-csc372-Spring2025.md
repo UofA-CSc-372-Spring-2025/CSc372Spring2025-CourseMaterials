@@ -40,7 +40,7 @@ Dr. Michelle Strout, GS 707, [mstrout@cs.arizona.edu](mailto:mstrout@cs.arizona.
 ## Office Hours:
 
 * Dr. Strout office hours will be held after class in GS 707 until 6pm on Tuesdays and Thursdays.
-* TA office hours will be held in GS, Phyllis Tuesdays 1:30-2:30 pm in GS732
+* TA office hours will be held in GS, Phyllis Tuesdays 1:30-2:30 pm in GS931
 * The office hours schedule will be posted on Piazza. 
 * Our scheduled office hours have an open door policy, which means you do not have to make an appointment. If you need to meet with any of us at an unscheduled time, you can email to set up an appointment.
 
