@@ -54,7 +54,7 @@ the material there first.
 
 2. Create the docker container
 ```
-cd sa1-docker-netid/
+cd sa1-docker-<github-id>/
 docker build -t chapel_sml_prolog .
 ```
 Note that the build might take about 5 minutes or so.  It will output status information.
@@ -70,7 +70,7 @@ Should list your image.
 
 ```
 docker pull docker.io/chapel/chapel:2.3.0
-cd sa1-docker-netid/
+cd sa1-docker-<github-id>/
 docker run -it -v $(pwd):/workspace chapel_sml_prolog
 devuser@3de3a6e8c94f:~$ cd /workspace
 devuser@3de3a6e8c94f:/workspace$ 
@@ -84,16 +84,16 @@ Reference for the above steps: ChatGPT answer to "How do I build a docker contai
 Possible issues
 * If you do the above in docker desktop, you may have to type your absolute directory path instead of using `$(pwd)` in the `docker run` command.
 
-* Docker on the Mac can’t handle when `pwd` has spaces in it.  So I moved to `/Users/mstrout/MyGitHub/Temp372/` before cloning the my `sa1-docker-netid` GitHub repository.
+* Docker on the Mac can’t handle when `pwd` has spaces in it.  So I moved to `/Users/mstrout/MyGitHub/Temp372/` before cloning the my `sa1-docker-<github-id>` GitHub repository.
 
 * If you run into other issues or errors, I recommend asking a free LLM like ChatGPT or Claude, or the copilot provided by the university, to get ideas for fixing the problems.  You can always ask on Piazza as well.
 
 ## Edit and Execute each of the programs
 
 The docker container doesn't have any editors.  However, it mounted the 
-directory you started it in on your machine `sa1-docker-netid/` into `/workspace/`.
+directory you started it in on your machine `sa1-docker-<github-id>/` into `/workspace/`.
 That is why in the docker container you can do an `ls` and see those files.  
-Thus, you can edit those files on your machine in `sa1-docker-netid/`
+Thus, you can edit those files on your machine in `sa1-docker-<github-id>/`
 with any editor you prefer.  I recommend vscode.
 
 ### SML
