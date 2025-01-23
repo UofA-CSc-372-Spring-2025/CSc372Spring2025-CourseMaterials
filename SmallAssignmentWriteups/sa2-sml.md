@@ -40,7 +40,7 @@ You will be submitting your assignment to Gradescope.
 
 ## GitHub Setup
 
-Accept the github assignment at FIXME:https://classroom.github.com/a/5CPJbvxS
+Accept the github assignment at [https://classroom.github.com/a/P5LRyqxv](https://classroom.github.com/a/P5LRyqxv)
 and do a git clone of your repository.  Make sure to `git commit -a` and
 `git push` frequently!  The initial github repository will include the 
 following files:
@@ -74,13 +74,7 @@ structure Unit:
 end
 val it = (): unit
 The only internal Unit test passed.
-exception Mismatch
-val concat = fn: 'a list list -> 'a list
-val firstVowel = fn: char list -> bool
-val minlist = fn: 'a list -> int
 val mynull = fn: 'a list -> bool
-val reverse = fn: 'a -> 'a
-val zip = fn: 'a list * 'b list -> ('a * 'b) list
 val it = (): unit
 ```
 
@@ -200,7 +194,6 @@ avoid the worst faults. In ML, you must avoid these functions and idioms:
 
   **Solutions that use `hd` or `tl` will earn No Credit.**
 
-* FIXME: something for implode and explode
 
 
 ## We expect the right types
@@ -225,14 +218,14 @@ be graded. But we still expect the following:
 # Programming Problems
 <a name="prog"/></a>
 
-All of your solutions will go into a single file: `sa1.sml`.
+All of your solutions will go into a single file: `sa2.sml`.
 
 At the start of each problem, please keep the labels with short comments, like
 ```
 (***** Problem A *****)
 ```
 
-To receive credit, your `sa1.sml` file must compile and execute in with poly in the docker container you set up for SA1. For example, we must be able to interpret your code without warnings or 
+To receive credit, your `sa2.sml` file must execute with poly in the docker container you set up for SA1. For example, we must be able to interpret your code without warnings or 
 errors. The following command should test all of your code:
 ```
 % poly --script sa2.sml
@@ -248,12 +241,6 @@ you directly to here about how you did the assignment.
 
 
 ## Defining functions using clauses and patterns
-FIXME:
-Related Reading for Problems A and B: In [Learning Standard  ML](https://www.cs.tufts.edu/comp/105-2019s/readings/ml.html#unit-testing) read 
-about Expressions (Sections I, II, and III), Data (I, II, and II), Inexhaustive 
-pattern matches, Types (I), Definitions (III, IV), and Expressions (VIII).
-
-<hr>
 
 **A.** Define a function `mynull : 'a list -> bool`, which when applied to a 
 list tells whether the list is empty. Avoid using `if`, and make sure the 
@@ -271,7 +258,6 @@ Here is an example `char list`:
 ```sml
 val chars = [#"a", #"b", #"c"];
 ```
-<hr>
 
 ## Using fold
 
@@ -328,7 +314,7 @@ for `List.concat`—code that uses `List.concat` will earn No Credit.
 
 ## Helper functions for the upcoming LA1
 
-**G.** Define a function isDigit : char -> bool that takes 
+**G.** Define a function `isDigit : char -> bool` that takes 
 a single character and returns true if the character is 
 a digit ('0' to '9') and false otherwise. You must use 
 pattern matching in your solution and avoid using if statements. Additionally, do not use functions from 
@@ -344,7 +330,7 @@ val it = false : bool
 ```
 <hr>
 
-**H.** Define a function isAlpha : char -> bool that 
+**H.** Define a `function isAlpha : char -> bool` that 
 takes a single character and returns true if the 
 character is an alphabetical letter 
 ('a' to 'z' or 'A' to 'Z') and false otherwise. 
@@ -361,7 +347,7 @@ val it = false : bool
 val it = true : bool
 ```
 
-**I.** Define a function svgCircle : int * int * int * string -> string 
+**I.** Define a function `svgCircle : int * int * int * string -> string` 
 that takes a tuple of four values:
  1.	An integer for the x-coordinate of the circle’s center (cx).
  2.	An integer for the y-coordinate of the circle’s center (cy).
@@ -425,5 +411,5 @@ one file at a time.-->
 # How your work will be evaluated
 
 Your submission will be evaluated with automated correctness tests
-and with manual reviewing of your code.  Please follow all of the
+and with some manual reviewing of your code.  Please follow all of the
 above instructions.
