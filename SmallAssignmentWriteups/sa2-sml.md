@@ -326,6 +326,63 @@ val it = [1, 2, 3, 4, 5, 6] : int list
 Do not use `if`. You may use functions from the Standard Basis Library, except 
 for `List.concat`—code that uses `List.concat` will earn No Credit.
 
+## Helper functions for the upcoming LA1
+
+**G.** Define a function isDigit : char -> bool that takes 
+a single character and returns true if the character is 
+a digit ('0' to '9') and false otherwise. You must use 
+pattern matching in your solution and avoid using if statements. Additionally, do not use functions from 
+the Standard Basis Library.
+
+Here are some example calls to isDigit:
+```sml
+> isDigit #"5";
+val it = true : bool
+
+> isDigit #"a";
+val it = false : bool
+```
+<hr>
+
+**H.** Define a function isAlpha : char -> bool that 
+takes a single character and returns true if the 
+character is an alphabetical letter 
+('a' to 'z' or 'A' to 'Z') and false otherwise. 
+You must use Char.ord to determine if the character 
+falls within the appropriate ranges for uppercase 
+and lowercase letters. Do not use any other functions 
+from the Standard Basis Library.
+Here are some example calls to isDigit:
+```sml
+> isAlpha #"5";
+val it = false : bool
+
+> isAlpha #"a";
+val it = true : bool
+```
+
+**I.** Define a function svgCircle : int * int * int * string -> string 
+that takes a tuple of four values:
+ 1.	An integer for the x-coordinate of the circle’s center (cx).
+ 2.	An integer for the y-coordinate of the circle’s center (cy).
+ 3.	An integer for the circle’s radius (r).
+ 4.	A string for the circle’s fill color (fill).
+
+The function should return a properly formatted SVG string representing a 
+circle element. The output should match the following format:
+```svg
+<circle cx="..." cy="..." r="..." fill="..." />
+```
+
+Here are some examples calls to svgCircle:
+```sml
+> svgCircle (120, 150, 60, "white");
+val it = "<circle cx=\"120\" cy=\"150\" r=\"60\" fill=\"white\" />" : string
+
+svgCircle (200, 300, 100, "red");
+val it = "<circle cx=\"200\" cy=\"300\" r=\"100\" fill=\"red\" />" : string
+```
+
 **J.** Define a function `partition : ('a -> bool) -> 'a list -> 'a list * 'a list` 
 that takes a predicate function and a list, and splits 
 the list into two lists:
