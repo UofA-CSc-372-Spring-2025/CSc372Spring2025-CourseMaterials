@@ -156,8 +156,8 @@ Lexing and Parsing
 <p>
 SML
    </td>
-   <td><li>[Video about web dev related languages and language levels](https://www.youtube.com/watch?v=2lVDktWK-pc)
-<li>[SA2-SML writeup and readings it links to](https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa2-sml.md)
+   <td><li><a href=https://www.youtube.com/watch?v=2lVDktWK-pc>Video about web dev related languages and language levels</a>
+<li><a href=https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa2-sml.md>SA2-SML writeup and readings it links to</a>
    </td>
    <td>LA #1 (F)
    </td>
