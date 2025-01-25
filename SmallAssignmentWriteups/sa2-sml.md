@@ -27,8 +27,6 @@ Standard ML.  The first large assignment will be a compiler between a
 text language specifying shapes and lines to SVG, and it will be written
 in SML.
 
-You will be doing this by creating and running a docker container that has all of the programs you need to interpret SML and Prolog and compile and run Chapel.  You will also edit each of the source files to add a line of code that produces some output.
-
 You will be expected to do at least two pushes of your intermediate progress
 into GitHub.  For this assignment, we will be able to check that GitHub commits
 and pushes are being done.
