@@ -27,9 +27,12 @@ Standard ML.  The first large assignment will be a compiler between a
 text language specifying shapes and lines to SVG, and it will be written
 in SML.
 
-You will be expected to do at least two pushes of your intermediate progress
+~You will be expected to do at least two pushes of your intermediate progress
 into GitHub.  For this assignment, we will be able to check that GitHub commits
-and pushes are being done.
+and pushes are being done.~
+Since the github repositories are all public.  You do NOT have to do commits
+and pushes to your github repository.  I apologize for the inconvenience of
+the public repositories.
 
 You will be submitting your assignment to Gradescope.
 
