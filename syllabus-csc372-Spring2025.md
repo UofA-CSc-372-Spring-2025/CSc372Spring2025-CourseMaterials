@@ -77,451 +77,57 @@ By the end of this class, students should be able to
 **Note: This is a tentative schedule and may change as necessary.**
 
 
-<table>
-  <tr>
-   <td colspan="4" >
-<strong>Week 1: 1/15-1/17 (No class 1/14, First class is Thursday 1/16)</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Introduction
-   </td>
-   <td><li><a href=https://www.youtube.com/watch?v=pkDz62xz15k>Comparing How PLs are Used</a>
-<p>
-<li><a href=https://ncase.me/remember/>Spaced repetition</a>
-<p>
-<li><a href=https://cs.lmu.edu/~ray/notes/plstudy/>Dr. Ray Toal on Why Study PLs</a>
-   </td>
-   <td><a href=https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa1-docker.md>SA #1</a> (W)
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 2: 1/20-1/24 (Note: Monday 1/20 is MLK day, class both Tues & Thurs)</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>SML
-<p>
-Types
-   </td>
-   <td><li><a href=https://www.cl.cam.ac.uk/~lp15/MLbook/PDF/chapter1.pdf>Chapter 1 of "ML for the Working Programmer"</a>
-<p>
-<li><a href=https://cs.lmu.edu/~ray/notes/types/>Dr. Ray Toal on Types</a>
-   </td>
-   <td>SA #2 (W)
-   </td>
-   <td>SA #1 (W)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 3: 1/27-1/31</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Syntax and Semantics
-<p>
-Lexing and Parsing
-<p>
-SML
-   </td>
-   <td>TBD
-<p>
-TBD
-   </td>
-   <td>LA #1 (F)
-   </td>
-   <td>SA #2 (W)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 4: 2/3-2/7</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Polymorphism
-<p>
-High-order functions
-<p>
-SML
-   </td>
-   <td>TBD
-<p>
-TBD
-   </td>
-   <td>SA #3 (W), MT1 review
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 5: 2/10-2/14</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Scope
-<p>
-SML
-   </td>
-   <td>TBD
-   </td>
-   <td>
-   </td>
-   <td>SA #3 (W), MT1 review
-<p>
-LA #1 (F)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 6: 2/17-2/21</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Midterm 1 (MT1)
-<p>
-Prolog Intro
-   </td>
-   <td>TBD
-   </td>
-   <td>SA #4 (W)
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 7: 2/24-2/28</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>SAT Solvers
-<p>
-Type Inference
-<p>
-Prolog
-   </td>
-   <td>TBD
-<p>
-TBD
-<p>
-TBD
-   </td>
-   <td>LA #2 (F)
-   </td>
-   <td>SA #4 (W)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 8: 3/3-3/7</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Comparing PLs
-<p>
-Prolog for Constraint Solving
-   </td>
-   <td>TBD
-<p>
-TBD
-   </td>
-   <td>SA #5 (W), MT2 review
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Spring Break: 3/8-3/16</strong>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 9: 3/17-3/21</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Prolog Wrap up
-<p>
-Visiting Speaker
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>SA #5 (W), MT2 review
-<p>
-LA #2 (F)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 10: 3/24-3/28</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Midterm2
-<p>
-Chapel Overview I
-   </td>
-   <td>TBD
-   </td>
-   <td>SA #6 (W)
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 11: 3/31-4/4</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Chapel Overview II
-<p>
-Chapel Basics I
-   </td>
-   <td>TBD
-<p>
-TBD
-   </td>
-   <td>SA #7 (W)
-<p>
-FP (M)
-   </td>
-   <td>SA #6 (W)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 12: 4/7-4/11</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Chapel Basics II
-<p>
-Guest speaker
-   </td>
-   <td>TBD
-<p>
-TBD
-   </td>
-   <td>
-   </td>
-   <td>SA #7 (W)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 13: 4/14-4/18</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Parallelism and Chapel
-<p>
-Classes & Memory Safety
-   </td>
-   <td>TBD
-<p>
-TBD
-   </td>
-   <td>LA #3 (F)
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 14: 4/21-4/25</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>More parallelism and performance
-<p>
-Iterators and generators
-<p>
-Chapel
-   </td>
-   <td>TBD
-<p>
-TBD
-   </td>
-   <td>SA #8 (W), Final Review
-   </td>
-   <td>FP (M)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 15: 4/28-5/2</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Topics</strong>
-   </td>
-   <td><strong>Reading/Watching</strong>
-   </td>
-   <td><strong>Released</strong>
-   </td>
-   <td><strong>Due</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Outro: language comparisons
-<p>
-Final Exam Review
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>SA #8 (W), Final Review
-<p>
-LA #3 (F)
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Week 16: 5/7-5/11 (Last day of classes: 5/7, no CS372 classes this week)</strong>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="4" ><strong>Final Exams: 5/9-5/15</strong>
-<p>
-<strong>Our final exam: 5/14, 3:30-5:30 PM</strong>
-   </td>
-  </tr>
-</table>
+
+| **Week 1: 1/15-1/17 (No class 1/14, First class is Thursday 1/16)** |       |                     |                     |            
+|-----------------------------|-----------------------------------------------|---------------------|---------------------|
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Introduction                | - [Comparing How PLs are Used](https://www.youtube.com/watch?v=pkDz62xz15k)  <br>- [Spaced repetition](https://ncase.me/remember/) <br>- [Dr. Ray Toal on Why Study PLs](https://cs.lmu.edu/~ray/notes/plstudy/) | [SA #1 (W)](https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa1-docker.md) |  |
+| **Week 2: 1/20-1/24 (Note: Monday 1/20 is MLK day, class both Tues & Thurs)** |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| SML <br> Types               | - [Chapter 1 of "ML for the Working Programmer"](https://www.cl.cam.ac.uk/~lp15/MLbook/PDF/chapter1.pdf) <br>- [Dr. Ray Toal on Types](https://cs.lmu.edu/~ray/notes/types/) | SA #2 (W)           | SA #1 (W)          |
+| **Week 3: 1/27-1/31**        |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Syntax and Semantics <br> Lexing and Parsing <br> SML | - [Video about web dev related languages and language levels](https://www.youtube.com/watch?v=2lVDktWK-pc) <br>- [SA2-SML writeup and readings it links to](https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa2-sml.md) | LA #1 (F)           | SA #2 (W)          |
+| **Week 4: 2/3-2/7**          |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Polymorphism <br> High-order functions <br> SML | TBD                                           | SA #3 (W), MT1 review |  |
+| **Week 5: 2/10-2/14**        |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Scope <br> SML               | TBD                                           | SA #3 (W), MT1 review | LA #1 (F)          |
+| **Week 6: 2/17-2/21**        |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Midterm 1 (MT1) <br> Prolog Intro | TBD                                           | SA #4 (W)           |  |
+| **Week 7: 2/24-2/28**        |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| SAT Solvers <br> Type Inference <br> Prolog | TBD                                           | LA #2 (F)           | SA #4 (W)          |
+| **Week 8: 3/3-3/7**          |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Comparing PLs <br> Prolog for Constraint Solving | TBD                                           | SA #5 (W), MT2 review |  |
+| **Spring Break: 3/8-3/16**  |  |
+| **Week 9: 3/17-3/21**        |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Prolog Wrap up <br> Visiting Speaker | TBD                                           | SA #5 (W), MT2 review | LA #2 (F)          |
+| **Week 10: 3/24-3/28**       |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Midterm2 <br> Chapel Overview I | TBD                                           | SA #6 (W)           |  |
+| **Week 11: 3/31-4/4**        |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Chapel Overview II <br> Chapel Basics I | TBD                                           | SA #7 (W) <br> FP (M) | SA #6 (W)          |
+| **Week 12: 4/7-4/11**        |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Chapel Basics II <br> Guest speaker | TBD                                           |  | SA #7 (W)          |
+| **Week 13: 4/14-4/18**       |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Parallelism and Chapel <br> Classes & Memory Safety | TBD                                           | LA #3 (F)           |  |
+| **Week 14: 4/21-4/25**       |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| More parallelism and performance <br> Iterators and generators <br> Chapel | TBD                                           | SA #8 (W), Final Review | FP (M)            |
+| **Week 15: 4/28-5/2**        |  |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
+| Outro: language comparisons <br> Final Exam Review | TBD                                           | SA #8 (W), Final Review | LA #3 (F)          |
+| **Week 16: 5/7-5/11 (Last day of classes: 5/7, no CS372 classes this week)** |  |
+| **Final Exams: 5/9-5/15**    | **Our final exam: 5/14, 3:30-5:30 PM**        |  |  |
+
 
 
 *This is the final due date, but there will likely be intermediary deadlines for various tasks as well.
@@ -626,99 +232,28 @@ Final Exam Regulations and Final Exam Schedule: [https://registrar.arizona.edu/f
 Your grade will be calculated based on how many points you earn (out of 1000), so every point in the class is equally weighted. A summary of the point distribution is below.
 
 
-<table>
-  <tr>
-   <td><strong>Category/Assignment</strong>
-   </td>
-   <td><strong>Points</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Small Assignments (SA)
-   </td>
-   <td>100
-   </td>
-  </tr>
-  <tr>
-   <td>Large Assignments (LA)
-   </td>
-   <td>100
-   </td>
-  </tr>
-  <tr>
-   <td>In-class Assignments/Quizzes (ICA/Q)
-   </td>
-   <td>100
-   </td>
-  </tr>
-  <tr>
-   <td>Final Project (FP)
-   </td>
-   <td>200
-   </td>
-  </tr>
-  <tr>
-   <td>Midterm (MT1)
-   </td>
-   <td>100
-   </td>
-  </tr>
-  <tr>
-   <td>Midterm (MT2)
-   </td>
-   <td>200
-   </td>
-  </tr>
-  <tr>
-   <td>Final (F)
-   </td>
-   <td>200
-   </td>
-  </tr>
-</table>
+| **Category/Assignment**                | **Points** |
+|----------------------------------------|------------|
+| Small Assignments (SA)                 | 100        |
+| Large Assignments (LA)                 | 100        |
+| In-class Assignments/Quizzes (ICA/Q)   | 100        |
+| Final Project (FP)                     | 200        |
+| Midterm (MT1)                          | 100        |
+| Midterm (MT2)                          | 200        |
+| Final (F)                              | 200        |
 
 
 To pass this course (receive a D or higher), you must earn at least 360/600 (60%) of the in class points (ICA/Q, MT1, MT2, and F).  Assuming that has been achieved, then your overall course grade will be assigned as follows based on the number of total points in the course: 
 
 
-<table>
-  <tr>
-   <td><strong>Points</strong>
-   </td>
-   <td><strong>Grade</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>900+
-   </td>
-   <td>A
-   </td>
-  </tr>
-  <tr>
-   <td>800-899
-   </td>
-   <td>B
-   </td>
-  </tr>
-  <tr>
-   <td>700-799
-   </td>
-   <td>C
-   </td>
-  </tr>
-  <tr>
-   <td>600-699
-   </td>
-   <td>D
-   </td>
-  </tr>
-  <tr>
-   <td>0-599
-   </td>
-   <td>E
-   </td>
-  </tr>
-</table>
+| **Points** | **Grade** |
+|------------|-----------|
+| 900+       | A         |
+| 800-899    | B         |
+| 700-799    | C         |
+| 600-699    | D         |
+| 0-599      | E         |
+
 
 University policy regarding grades and grading systems is available at [https://catalog.arizona.edu/policy/courses-credit/grading/grading-system](https://catalog.arizona.edu/policy/courses-credit/grading/grading-system) 
 
