@@ -77,7 +77,6 @@ By the end of this class, students should be able to
 **Note: This is a tentative schedule and may change as necessary.**
 
 
-
 | **Week 1: 1/15-1/17 (No class 1/14, First class is Thursday 1/16)** |       |                     |                     |            
 |-----------------------------|-----------------------------------------------|---------------------|---------------------|
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
