@@ -335,11 +335,11 @@ val it = false : bool
 takes a single character and returns true if the 
 character is an alphabetical letter 
 ('a' to 'z' or 'A' to 'Z') and false otherwise. 
-You must use Char.ord to determine if the character 
+You must use `Char.ord` to determine if the character 
 falls within the appropriate ranges for uppercase 
 and lowercase letters. Do not use any other functions 
 from the Standard Basis Library.
-Here are some example calls to isDigit:
+Here are some example calls to `isAlpha`:
 ```sml
 > isAlpha #"5";
 val it = false : bool
