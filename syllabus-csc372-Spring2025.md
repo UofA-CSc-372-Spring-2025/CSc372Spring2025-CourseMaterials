@@ -1,25 +1,3 @@
-<!-----
-
-
-
-Conversion time: 1.963 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β40
-* Sat Jan 11 2025 19:09:44 GMT-0800 (PST)
-* Source doc: syllabus-372-Spring-2025
-* Tables are currently converted to HTML tables.
------>
-
 
 # CSc 372: Comparative Programming Languages
 * Tuesday & Thursday 3:30 - 4:45 PM
@@ -83,13 +61,13 @@ By the end of this class, students should be able to
 | Introduction                | - [Comparing How PLs are Used](https://www.youtube.com/watch?v=pkDz62xz15k)  <br>- [Spaced repetition](https://ncase.me/remember/) <br>- [Dr. Ray Toal on Why Study PLs](https://cs.lmu.edu/~ray/notes/plstudy/) | [SA #1 (W)](https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa1-docker.md) |  |
 | **Week 2: 1/20-1/24 (Note: Monday 1/20 is MLK day, class both Tues & Thurs)** |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| SML <br> Types               | - [Chapter 1 of "ML for the Working Programmer"](https://www.cl.cam.ac.uk/~lp15/MLbook/PDF/chapter1.pdf) <br>- [Dr. Ray Toal on Types](https://cs.lmu.edu/~ray/notes/types/) | SA #2 (W)           | SA #1 (W)          |
+| SML <br> Types               | - [Chapter 1 of "ML for the Working Programmer"](https://www.cl.cam.ac.uk/~lp15/MLbook/PDF/chapter1.pdf) <br>- [Dr. Ray Toal on Types](https://cs.lmu.edu/~ray/notes/types/) | <a href=https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa2-sml.md>SA #2</a> (W)           | SA #1 (W)          |
 | **Week 3: 1/27-1/31**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Syntax and Semantics <br> Lexing and Parsing <br> SML | - [Video about web dev related languages and language levels](https://www.youtube.com/watch?v=2lVDktWK-pc) <br>- [SA2-SML writeup and readings it links to](https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa2-sml.md) | LA #1 (F)           | SA #2 (W)          |
+| Syntax and Semantics <br> Lexing and Parsing <br> SML | - [Video about web dev related languages and language levels](https://www.youtube.com/watch?v=2lVDktWK-pc) <br>- [SA2-SML writeup and readings it links to](https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa2-sml.md) | <a href=https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/LargeAssignmentWriteups/la1-shape2svg-inprogress.md>LA #1</a> (F)           | SA #2 (W)          |
 | **Week 4: 2/3-2/7**          |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Polymorphism <br> High-order functions <br> SML | TBD                                           | SA #3 (W), MT1 review |  |
+| Recursive descent parsing <BR> Polymorphism and High-order functions <br> SML | TBD                                           | SA #3 (W), MT1 review |  |
 | **Week 5: 2/10-2/14**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | Scope <br> SML               | TBD                                           | SA #3 (W), MT1 review | LA #1 (F)          |
