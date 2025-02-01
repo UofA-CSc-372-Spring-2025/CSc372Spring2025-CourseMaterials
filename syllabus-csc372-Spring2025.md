@@ -70,7 +70,7 @@ By the end of this class, students should be able to
 | Recursive descent parsing <BR> Polymorphism and High-order functions <br> SML | TBD                                           | SA #3 (W), MT1 review |  |
 | **Week 5: 2/10-2/14**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Scope <br> SML               | TBD                                           | SA #3 (W), MT1 review | LA #1 (F)          |
+| Scope and SML<br> Visiting speaker and MT1 review  | TBD                                           |     | LA #1 (F)          |
 | **Week 6: 2/17-2/21**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | Midterm 1 (MT1) <br> Prolog Intro | TBD                                           | SA #4 (W)           |  |
