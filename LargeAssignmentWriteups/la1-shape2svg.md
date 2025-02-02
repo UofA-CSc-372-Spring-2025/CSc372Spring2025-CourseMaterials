@@ -57,12 +57,13 @@ Accept the github assignment at [https://classroom.github.com/a/-JfdvKDM](https:
 and do a git clone of your repository.  Make sure to `git commit -a` and
 `git push` frequently!  The initial github repository will include the 
 following files:
- * shape2svg.sml
+ * la1-parse.sml
+ * la1-tests.sml
+ * shapes2svg.sml
  * face.svg
  * face.shapes
  * min-grammar.svg
  * min-grammar.shapes
- * la1-tests.sml
  * Unit.sml
  * README.md
 
@@ -74,10 +75,10 @@ devuser@3de3a6e8c94f:~$ cd /workspace
 devuser@3de3a6e8c94f:/workspace$ 
 ```
 
-To run the code in `shapes2sml.sml` from the commandline, 
+To run the code in `shapes2svg.sml` from the commandline, 
 you can do the following:
 ```
-devuser@3de3a6e8c94f:/workspace$ poly --script shapes2svg.sml < face.shapes > face-out.svg
+devuser@3de3a6e8c94f:/workspace$ cat la1-parse.sml shapes2svg.sml > compiler.sml; poly --script compiler.sml < face.shapes > face-out.svg
 ```
 `face-out.svg` should be identical to `face.svg`.  Do a `diff` to see if that is true.
 
@@ -92,7 +93,7 @@ collaborate with others who are in the class or folks not in the class.
 Please remember to **put your name, the time you spent, 
 and who you collaborated with including AIs in the
 comment header at the top of the 
-`shapes2svg.sml` file**.  We will be surprised if you don't
+`la1-parse.sml` file**.  We will be surprised if you don't
 collaborate with anyone including an AI.  Thus, if you
 don't list any collaborators, we will probably contact
 you directly to learn more details about how you did the assignment.
@@ -120,14 +121,14 @@ what functions need tested.
 # Lexing and Parsing in SML
 <a name="prog"/></a>
 
-Both your lexer and your parser will go into a single file: `shapes2svg.sml`.
-The provided `shapes2svg.sml` is already pre-populated with stubs (or implementations) for
+Both your lexer and your parser will go into a single file: `la1-parse.sml`.
+The provided `la1-parse.sml` is already pre-populated with stubs (or implementations) for
 all of the functions you have to write and some recommended ones.
 
-To receive credit, your `shapes2svg.sml` file must execute with poly in the docker container you set up for SA1. For example, we must be able to interpret your code without warnings or 
+To receive credit, your `la1-parse.sml` file must execute with poly in the docker container you set up for SA1. For example, we must be able to interpret your code without warnings or 
 errors. The following commands should test all of your code:
 ```
-cat shapes2svg.sml la1-tests.sml > cat.sml
+cat la1-parse.sml la1-tests.sml > cat.sml
 poly --script cat.sml
 ```
 
@@ -172,7 +173,7 @@ The lexer for this assignment is relatively simple although you do need to deal 
 It takes as input the string for the full input file.
 It needs to generate a list of tokens that are in that string
 and then append the `TokenEOF` at the end of the list.
-See the provided `shapes2svg.sml` for hints.
+See the provided `la1-parse.sml` for hints.
 
 ## Parser and the Abstract Syntax Tree
 
@@ -192,7 +193,7 @@ The formatting needs to match the given files identically to enable testing.
 <a name="submit"/></a>
 
 Please submit the following files to Gradescope:
-* `shape2svg.sml`
+* `la1-parse.sml`
 * `la1-tests.sml`
 * `mypic.shapes`
 * `mypic.svg`
