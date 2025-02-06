@@ -67,6 +67,14 @@ following files:
  * Unit.sml
  * README.md
 
+Below are some videos to help you with setting up SSH for Github, cloning, commiting, and pushing:
+ * SSH Setup and Cloning:  https://youtu.be/snCP3c7wXw0?si=1ju86TiRn1LIodKL&t=75
+ * Committing and Pushing:  https://www.youtube.com/watch?v=9DHjfDuXMGA
+    * You shouldn't need to use the git bash terminal, the same commands shown in this video should work on any other terminal where git can be used.
+    * When first committing, you may be asked to do the following commands, which are necessary to associate you with your commits:
+      * `git config --global user.email "<your Github email>"`
+      * `git config --global user.name "<your Github username>"`
+
 Startup the docker container you made for SA1:
 ```
 cd la1-parse-githubid/
