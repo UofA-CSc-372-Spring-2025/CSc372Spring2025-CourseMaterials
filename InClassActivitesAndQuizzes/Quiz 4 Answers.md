@@ -1,13 +1,13 @@
 # Answers to Quiz 4
 
 Note: Coding answers can have many variations.  It is impossible to provide all the possible answers
-here.
+here.  Below I show some examplar correct answers.
 
 ## Question 1:
     fun sum [] = 0
     | sum (x::xs) =
       if x mod 2 = 0 then (x * x) + sum xs
-    else sum xs;
+      else sum xs;
 
     fun sum [] = 0
     | sum (x::xs) =
@@ -17,7 +17,9 @@ here.
 
 ## Question 2:
     val sumOfSquaresOfEvens = foldl (fn (x, acc) => if x mod 2 = 0 then acc + (x * x) else acc) 0
+    
     fun sumEvenSquares lst = foldl (fn (x, acc) => if x mod 2 = 0 then acc + (x * x) else acc) 0 lst
+    
     fun sumEvenSquares lst = foldl (fn (x, acc) => 
       case (x mod 2 = 0) of
         true => acc + x * x
