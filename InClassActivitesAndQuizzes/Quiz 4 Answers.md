@@ -26,7 +26,7 @@ here.
   
 ## Question 3: True  
 
-## Question 4: Data typing, Base case, or Pattern matching  
+## Question 4: Pattern matching  
 
 ## Question 5: B  
 
