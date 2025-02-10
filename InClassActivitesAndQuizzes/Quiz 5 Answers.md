@@ -4,19 +4,19 @@
     IF, y, {, z, =, 42, }
 
 ## Question 2:
-                              start
+                            start
 				/  \
-			     stmts   EOF   stmts: IF y { z = 42 }
+			     stmts   EOF     stmts: IF y { z = 42 }
 			     /    \
-			  stmt   stmts     stmt: IF y { z = 42}, stmts: eps
+			  stmt   stmts       stmt: IF y { z = 42}, stmts: epsilon
 			  /	   |
-                      ifStmt	  eps	   ifStmt: IF y { z = 42}
+                     ifStmt   epsilon    ifStmt: IF y { z = 42}
 			/
-                   IF id { stmts }	   id: y, stmts: z = 42
- 			    /   \
-                          stmt   stmts
+                   IF id { stmts }	     id: y, stmts: z = 42
+ 			      /   \
+                       stmt   stmts
 			    |	    |
-			 z = 42   eps
+			 z = 42   epsilon
   
 ## Question 3: A  
 
