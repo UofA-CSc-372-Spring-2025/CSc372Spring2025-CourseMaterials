@@ -1,7 +1,7 @@
 (* Starting point for SML-intro sandbox *)
 
 (* indicate planning to use the Unit testing module *)
-(* use "Unit.sml"; *)
+use "Unit.sml"; 
 
 (* Example function definition *)
 
@@ -14,6 +14,7 @@ val () =
     (fn () => mynull [])
     true
 
+(* Try other examples from slide *)
 
 (* Unit testing reporting *)
 
