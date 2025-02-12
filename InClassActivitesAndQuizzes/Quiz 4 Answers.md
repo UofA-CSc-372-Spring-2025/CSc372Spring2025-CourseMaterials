@@ -32,7 +32,7 @@ here.  Below I show some examplar correct answers.
 
 ## Question 5: B  
 
-## Question 6: True  
+## Question 6: False  
 
 ## Question 7: D  
 
