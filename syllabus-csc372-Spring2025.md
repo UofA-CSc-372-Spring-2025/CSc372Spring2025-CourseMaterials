@@ -76,10 +76,10 @@ By the end of this class, students should be able to
 | Midterm 1 (MT1) <br> Prolog Intro | <a href="https://docs.google.com/document/d/1JpopCH4-xxyaFVskZldchQnvOdjjP6xEqsXNlWkMH38/edit?usp=sharing">Prolog Introduction (Hands On)</a>                                           | SA #4 (W)           |  |
 | **Week 7: 2/24-2/28**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| SAT Solvers <br> Type Inference <br> Prolog | TBD                                           | LA #2 (F)           | SA #4 (W)          |
+| Type Inference <br> Prolog | TBD                                           | LA #2 (F)           | SA #4 (W)          |
 | **Week 8: 3/3-3/7**          |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Comparing PLs <br> Prolog for Constraint Solving | TBD                                           | SA #5 (W), MT2 review |  |
+| Prolog for Constraint Solving and SAT<br> Comparing PLs | TBD                                           | SA #5 (W), MT2 review |  |
 | **Spring Break: 3/8-3/16**  |  |
 | **Week 9: 3/17-3/21**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
