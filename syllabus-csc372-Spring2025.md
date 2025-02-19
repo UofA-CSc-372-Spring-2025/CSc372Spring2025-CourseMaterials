@@ -73,7 +73,7 @@ By the end of this class, students should be able to
 | Scope and SML<br> Visiting speaker and MT1 review  | - <a href="https://www.youtube.com/watch?v=RORohki7_VQ">Scope in Java (1.5min)</a><br> - <a href="https://www.youtube.com/watch?v=38uGbVYICwg">Scope in Python (10min)</a> -<a href="https://www.youtube.com/watch?v=uVjcBRaeTHU">Fortnite programming with Verse</a><br> - <a href=https://fchq.io/tutorials/intro-to-verse-programming-language-tutorial>Verse PL Overview</a> <br>- <a href="https://www.youtube.com/watch?v=UBgam9XUHs0&t=161s&pp=ygUMcGV5dG9uIGpvbmVz">Podcast interview: Exploring Verse, language design, and teaching with Simon Peyton Jones</a>                                           |     | LA #1 (F)          |
 | **Week 6: 2/17-2/21**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Midterm 1 (MT1) <br> Prolog Intro | TBD                                           | SA #4 (W)           |  |
+| Midterm 1 (MT1) <br> Prolog Intro | <a href="https://docs.google.com/document/d/1JpopCH4-xxyaFVskZldchQnvOdjjP6xEqsXNlWkMH38/edit?usp=sharing">Prolog Introduction (Hands On)</a>                                           | SA #4 (W)           |  |
 | **Week 7: 2/24-2/28**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | SAT Solvers <br> Type Inference <br> Prolog | TBD                                           | LA #2 (F)           | SA #4 (W)          |
