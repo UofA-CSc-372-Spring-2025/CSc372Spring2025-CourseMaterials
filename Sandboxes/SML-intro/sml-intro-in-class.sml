@@ -14,6 +14,7 @@ val () =
     (fn () => mynull [])
     true
 
+(* Try other examples from slide *)
 
 (* Unit testing reporting *)
 
