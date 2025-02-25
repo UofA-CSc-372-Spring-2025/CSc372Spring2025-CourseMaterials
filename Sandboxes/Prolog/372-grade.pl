@@ -9,8 +9,7 @@ Example query:
                 MoreInClassNeededForGoal, InClassPossible,
                 MoreOutOfClassNeededForGoal, OutOfClassPossible).
 
-SAs=[100], LAs=[100],  ICAs=[100], MT1=70, Extra=12.
-FIXME: InClassNeededToPass = 290, This is a big wonky in this result.  What is happening with the ICAs?
+Note: Make sure the remaining points are updated in the can_reach_goal predicate.
 */
 
 % Calculates total points from a list
