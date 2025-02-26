@@ -189,7 +189,7 @@ true.
 
 ### Task:
 
-Write the predicate `commonFriend(X, Y, Z)` that succeeds if `Z` is a friend of both `X` and `Y`. 
+Write the predicate `commonFriend(X, Y, Z)` that succeeds if `Z` is a friend of both `X` and `Y`. Note that a person cannot be their own friend.
 
 ### Sample Queries:
 ```prolog
