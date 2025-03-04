@@ -83,7 +83,7 @@ By the end of this class, students should be able to
 | **Spring Break: 3/8-3/16**  |  |
 | **Week 9: 3/17-3/21**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Prolog wrapup and Comparing PLs <br> Visiting Speaker: Joe Strout, creator of Miniscript | TBD, <a href=https://miniscript.org/>Miniscript webpage</a>                                           | SA #5 (W), MT2 review | LA #2 (Sunday 3/23)          |
+| Prolog wrapup and Comparing PLs <br> Visiting Speaker: Joe Strout, creator of Miniscript | TBD, <a href=https://miniscript.org/>Miniscript webpage</a>                                           |  | LA #2 (Sunday 3/23)          | SA #5 (W), MT2 review
 | **Week 10: 3/24-3/28**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | Midterm2 <br> Chapel Overview I | TBD                                           | SA #6 (W)           |  |
