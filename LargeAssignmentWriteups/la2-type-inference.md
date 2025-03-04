@@ -142,11 +142,13 @@ and do a git clone of your repository.  Make sure to `git commit -a` and
 following files:
 - `la2-infer.pl`
 - `README.md`
+- `Dockerfile`
 
 Startup the docker container you made for SA1:
 ```
-cd type_inference-githubid/
-docker run -it -v $(pwd):/workspace chapel_sml_prolog
+cd la2-infer-githubid/
+docker build -t prolog_sml .
+docker run -it -v $(pwd):/workspace prolog_sml
 devuser@3de3a6e8c94f:~$ cd /workspace
 devuser@3de3a6e8c94f:/workspace$ 
 ```
