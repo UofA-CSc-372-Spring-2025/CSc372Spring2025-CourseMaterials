@@ -79,17 +79,17 @@ By the end of this class, students should be able to
 | Type Inference <br> Prolog | <a href="https://www.cl.cam.ac.uk/~lp15/MLbook/PDF/chapter2.pdf">Last 3 pages about Type inference</a>,<br><a href="https://youtu.be/hEOVcLAPRG8?si=7mqAAQhyNggq6mmO">A Taste of Prolog(video)</a>,<br><a href="https://www.youtube.com/watch?v=Csxc7J1iqGw">Seven Languages in 7 Weeks: Prolog(video)</a>,<br><a href="https://www.youtube.com/watch?v=G_eYTctGZw8">Production Prolog (video)</a>                                           | <a href=https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/LargeAssignmentWriteups/la2-type-inference.md>LA #2 (Sat)</a>           | SA #4 (W)          |
 | **Week 8: 3/3-3/7**          |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Prolog for solving problems | <a href="https://www.youtube.com/watch?v=fDTt_uo0F-g">Principles of Type Inference (start at 10 minute point) <\a>,<br> <a href="https://youtu.be/B0i5w94_430?si=pBkhmk8FzSNh-_Sj">Stepping through a type inference example</a>, <br><a href=https://staff.fnwi.uva.nl/u.endriss/teaching/pss/slides/pss-prolog-slides.pdf>Great set of prolog slides with examples</a>,<br><a href="https://www.ccs.neu.edu/home/amal/course/7480-s12/inference-notes.pdf">Some reference notes if you want more background and theory</a>                                           | SA #5 (W), MT2 review |  |
+| Prolog for solving problems | <a href="https://www.youtube.com/watch?v=fDTt_uo0F-g">Principles of Type Inference (start at 10 minute point),<br> <a href="https://youtu.be/B0i5w94_430?si=pBkhmk8FzSNh-_Sj">Stepping through a type inference example</a>, <br><a href=https://staff.fnwi.uva.nl/u.endriss/teaching/pss/slides/pss-prolog-slides.pdf>Great set of prolog slides with examples</a>,<br><a href="https://www.ccs.neu.edu/home/amal/course/7480-s12/inference-notes.pdf">Some reference notes if you want more background and theory</a>                                           | SA #5 (W) is MT2 review |  |
 | **Spring Break: 3/8-3/16**  |  |
 | **Week 9: 3/17-3/21**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Prolog wrapup and Comparing PLs <br> Visiting Speaker: Joe Strout, creator of Miniscript | TBD, <a href=https://miniscript.org/>Miniscript webpage</a>                                           |  | SA #5 (W), MT2 review, LA #2 (Sunday 3/23)          | 
+| Prolog wrapup and Comparing PLs <br> Visiting Speaker: Joe Strout, creator of Miniscript | TBD, <a href=https://miniscript.org/>Miniscript webpage</a>                                           |  | SA #5 (W) is MT2 review, LA #2 (Sunday 3/23)          | 
 | **Week 10: 3/24-3/28**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Midterm2 <br> Chapel Overview I | TBD                                           | SA #6 (W)           |  |
+| Midterm2 <br> Chapel Overview I | TBD                                           | FP and SA#6 (W)            |  |
 | **Week 11: 3/31-4/4**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Chapel Overview II <br> Chapel Basics I | TBD                                           | SA #7 (W) <br> FP (M) | SA #6 (W)          |
+| Chapel Overview II <br> Chapel Basics I | TBD                                           | SA #7 (W) | SA #6 FP intermediate (W)          |
 | **Week 12: 4/7-4/11**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | Chapel Basics II <br> Guest speaker | TBD                                           |  | SA #7 (W)          |
@@ -98,11 +98,11 @@ By the end of this class, students should be able to
 | Parallelism and Chapel <br> Classes & Memory Safety | TBD                                           | LA #3 (F)           |  |
 | **Week 14: 4/21-4/25**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| More parallelism and performance <br> Iterators and generators <br> Chapel | TBD                                           | SA #8 (W), Final Review | FP (M)            |
+| More parallelism and performance <br> Iterators and generators <br> Chapel | TBD                                           | SA #8 (W) is Final Review | FP (M)            |
 | **Week 15: 4/28-5/2**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Outro: language comparisons <br> Final Exam Review | TBD                                           | SA #8 (W), Final Review | LA #3 (F)          |
-| **Week 16: 5/7-5/11 (Last day of classes: 5/7, no CS372 classes this week)** |  |
+| Outro: language comparisons <br> Final Exam Review | TBD                                           |  | SA #8 (W) is Final Review, LA #3 (F)          |
+| **Week 16: 5/7-5/11 (Last day of classes: 5/7, no CS372 classes this week)** | 
 | **Final Exams: 5/9-5/15**    | **Our final exam: 5/14, 3:30-5:30 PM**        |  |  |
 
 
