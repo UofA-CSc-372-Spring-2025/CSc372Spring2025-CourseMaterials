@@ -177,7 +177,7 @@ comment header at the top of the `la2-infer.pl` file**.
 # What and how to submit
 <a name="submit"></a>
 
-In Gradescope submit the following files: `la2-infer.pl`, `la2-test.pl`, and `report.pdf`.
+In Gradescope submit the following files: `la2-infer.pl` and `README.md`.
 
 As soon as you have the files listed above, submit preliminary versions of your 
 work to gradescope. Keep submitting until your work is complete; we keep the
