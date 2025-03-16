@@ -83,26 +83,28 @@ By the end of this class, students should be able to
 | **Spring Break: 3/8-3/16**  |  |
 | **Week 9: 3/17-3/21**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Prolog wrapup and Comparing PLs <br> Visiting Speaker: Joe Strout, creator of Miniscript | [Reread Dr. Ray Toal on Why Study PLs with a focus on Evaluation Criteria](https://cs.lmu.edu/~ray/notes/plstudy/), <a href="https://en.wikipedia.org/wiki/Comparison_of_programming_languages">Comparison of Programming languages</a>, <a href="https://hyperpolyglot.org/">Some cool side-by-side comparisons</a>, <a href=https://miniscript.org/files/Strout_iSTEM-Ed2021.pdf/>3.5 page paper on Miniscript</a>                                           |  | SA #5 (W) is MT2 review, LA #2 (Sunday 3/23)          | 
+| Prolog wrapup and Comparing PLs <br> Visiting Speaker: Joe Strout, creator of Miniscript | [Reread Dr. Ray Toal on Why Study PLs with a focus on Evaluation Criteria](https://cs.lmu.edu/~ray/notes/plstudy/), <a href="https://en.wikipedia.org/wiki/Comparison_of_programming_languages">Comparison of Programming languages</a>, <a href="https://hyperpolyglot.org/">Some cool side-by-side comparisons</a>, <a href=https://miniscript.org/files/Strout_iSTEM-Ed2021.pdf/>3.5 page paper on Miniscript</a>                                           | FP and SA#6 (M) | SA #5 (W) is MT2 review, LA #2 (Sunday 3/23)          | 
 | **Week 10: 3/24-3/28**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Midterm2 <br> Chapel Overview I | TBD                                           | FP and SA#6 (W)            |  |
+| Midterm2 <br> Chapel Overview I | TBD                                           |             |  |
 | **Week 11: 3/31-4/4**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Chapel Overview II <br> Chapel Basics I | TBD                                           | SA #7 (W) | SA #6 FP intermediate (W)          |
+| Chapel Overview II, <br> Chapel Basics I | TBD                                           | SA #7 (W) | SA #6 FP intermediate (M 3/31)          |
 | **Week 12: 4/7-4/11**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Chapel Basics II <br> Guest speaker | TBD                                           |  | SA #7 (W)          |
+| Chapel Basics II, <br> Parallelism and Chapel | TBD                                           | LA #3 (F) | SA #7 (W)          |
 | **Week 13: 4/14-4/18**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Parallelism and Chapel <br> Classes & Memory Safety | TBD                                           | LA #3 (F)           |  |
+| Chapel large assignment,<br> Classes & Memory Safety | TBD                                           |            |  |
 | **Week 14: 4/21-4/25**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| More parallelism and performance <br> Iterators and generators <br> Chapel | TBD                                           | SA #8 (W) is Final Review | FP (M)            |
+| More parallelism and performance, <br> Guest Speaker | TBD                                           |  | LA #3 (F) |
 | **Week 15: 4/28-5/2**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Outro: language comparisons <br> Final Exam Review | TBD                                           |  | SA #8 (W) is Final Review, LA #3 (F)          |
-| **Week 16: 5/7-5/11 (Last day of classes: 5/7, no CS372 classes this week)** | 
+| Iterators and generators, <br> Outro: language comparisons  | TBD                                           | SA #8 (T) is Final Review | FP (F 5/2)*          |
+| **Week 16: 5/5-5/11 (Last day of classes: 5/7)** |
+| **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**   
+| Final Exam Review <br> No class on 5/8 | | |  SA #8 (T) is Final Review |
 | **Final Exams: 5/9-5/15**    | **Our final exam: 5/14, 3:30-5:30 PM**        |  |  |
 
 
