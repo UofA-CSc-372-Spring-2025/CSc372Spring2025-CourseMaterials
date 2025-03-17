@@ -1,0 +1,8 @@
+Student,Friend1,Friend1Points,Friend2,Friend2Points,Friend3,Friend3Points,Friend4,Friend4Points,Friend5,Friend5Points,Language1,Lang1Points,Language2,Lang2Points,Language3,Lang3Points,Morning,Afternoon,Evening,In-Person,Remote
+Alice,Bob,2,,,David,2,,,,,Go,10,Zip,5,C++,3,1,,,1,1
+Bob,Alice,5,David,5,,,,,,,Haskell,5,Dart,5,,,,,,1,
+Charlie,David,9,,,,,,,,,Rust,5,Haskell,4,,,,,,1,
+David,Charlie,7,Alice,8,Grace,10,,,,,JavaScript,7,C++,8,Haskell,10,,,,1,
+Eve,Frank,6,Grace,5,,,,,,,,,,,Julia,9,,5,,2,
+Frank,Eve,2,Bob,2,Charlie,2,Alice,2,David,1,Miniscript,10,Zig,3,,,,,,1,
+Grace,Alice,2,David,2,Eve,2,Charlie,2,Bob,1,,,JavaScript,3,,,,,10,1,
