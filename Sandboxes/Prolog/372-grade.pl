@@ -49,7 +49,7 @@ can_reach_goal(SA, LA, ICA, MT1, MT2, Extra, Goal,
     ICA_Possible is min(0,min(ICAleft, ICAmax - ICA)),
     SA_Possible is min(0,min(SAleft, SAmax - SA)),
     LA_Possible is min(0,min(LAleft, LAmax - LA)),
-    InClassPossible is ICA_Possible + MT2left + FinalExamLeft,
+    InClassPossible is ICA_Possible + FinalExamLeft,
     OutOfClassPossible is SA_Possible + LA_Possible + FPleft
                           + (ExtraMax - Extra),
 
