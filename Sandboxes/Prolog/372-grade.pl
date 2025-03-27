@@ -2,9 +2,9 @@
 /*
 Example query:
 
-?-  Goal=800, SAs=[15,0,15], LAs=[0],  ICAs=[20], MT1=50, Extra=0.
+?-  Goal=800, SAs=[15,15,15,15,5], LAs=[60],  ICAs=[80], MT1=50, MT2=110, Extra=0.
 ?- sum($SAs,SAtotal), sum($LAs,LAtotal), sum($ICAs,ICAtotal).
-?- can_reach_goal($SAtotal, $LAtotal, $ICAtotal, $MT1, $Extra, $Goal,
+?- can_reach_goal($SAtotal, $LAtotal, $ICAtotal, $MT1, $MT2, $Extra, $Goal,
                 InClassCurrPoints, OutClassCurrPoints, TotalCurrPoints,
                 MoreInClassNeededForGoal, InClassPossible,
                 MoreOutOfClassNeededForGoal, OutOfClassPossible).
@@ -17,7 +17,7 @@ sum([], 0).
 sum([H|T], Total) :- sum(T, Rest), Total is H + Rest.
 
 % Determines whether a student has enough points to pass and/or reach a goal
-can_reach_goal(SA, LA, ICA, MT1, Extra, Goal,
+can_reach_goal(SA, LA, ICA, MT1, MT2, Extra, Goal,
                InClassCurrPoints, OutClassCurrPoints, TotalCurrPoints,
                MoreInClassNeededForGoal, InClassPossible,
                MoreOutOfClassNeededForGoal, OutOfClassPossible) :-
@@ -27,12 +27,12 @@ can_reach_goal(SA, LA, ICA, MT1, Extra, Goal,
     TotalPassRequirement = 600,
     
     % Define available remaining points.
-    % Valid on Feb 25, 2021.
-    SAleft = 75, LAleft = 80, FPleft = 200, ICAleft = 50, 
-    MT2left = 200, FinalExamLeft = 200, ExtraMax = 40,
+    % Valid on March 26th after MT2 and LA2
+    SAleft = 45, LAleft = 40, FPleft = 200, ICAleft = 30, 
+    FinalExamLeft = 200, ExtraMax = 40,
 
     % Calculate current points
-    FP = 0, MT2 = 0, FinalExam = 0,
+    FP = 0, FinalExam = 0,
     total_points(SA, LA, ICA, MT1, Extra, MT2, FP, FinalExam,
                  InClassCurrPoints, OutClassCurrPoints, TotalCurrPoints),
 
