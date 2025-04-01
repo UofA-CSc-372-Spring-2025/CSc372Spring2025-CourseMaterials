@@ -4,11 +4,8 @@
      chpl parfilekmer.chpl
      ./parfilekmer -nl 2
 
-   # can change the infilename on command line as  it is a configuration const
-     ./kmer --infilename="kmer.chpl"
-
-   kmer_large_input.txt is from
-   https://www.ncbi.nlm.nih.gov/nuccore/NC_001422.1?report=fasta
+   # can change the directory where infiles are read
+     ./parfilekmer --nl --dir="DataDir"
  */
 
 use Map, IO;
