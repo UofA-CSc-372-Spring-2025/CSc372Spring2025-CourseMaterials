@@ -1,3 +1,5 @@
+import sys
+
 # Configuration
 max_points_per_student = 30
 
@@ -13,7 +15,11 @@ HAPPINESS_START_COL = 17
 NUM_HAPPINESS_COLS = 5
 
 # Read the data
-file_path = "happiness-data-from-form.csv"
+if len(sys.argv) < 2:
+    print("Usage: python data-checks.py <file_path>")
+    sys.exit(1)
+
+file_path = sys.argv[1]
 
 def read_file(file_path):
     with open(file_path, encoding='utf-8') as file:
@@ -51,6 +57,7 @@ friend_mentions = set()
 
 for row in data:
     student = row[STUDENT_COL]
+    print(f"Processing student: {student}");
     all_students.add(student)
     total_points = calculate_total_points(row)
     students_total_points[student] = total_points
