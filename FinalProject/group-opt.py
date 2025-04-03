@@ -1,3 +1,27 @@
+# Notes on usage
+# This script is designed to optimize group assignments for students based on 
+# their preferences.
+# It uses the Google OR-Tools library to solve a linear programming problem.
+# The script reads a CSV file containing student preferences, optimizes group 
+# assignments,
+# and generates an output CSV file with the results.
+
+# The script requires the Google OR-Tools library to be installed. Here
+# are the instructions to set up a virtual environment and install the library:
+#     # Create a virtual environment (optional) 
+#     python3 -m venv ortools-env
+#     # Activate the virtual environment
+#     source ortools-env/bin/activate  # On Windows use `ortools-env\Scripts\activate`
+#     # Install the ortools library
+#     pip install ortools
+#     # Run the script
+#     python3 group-opt.py input.csv output.csv
+
+# The script takes two command-line arguments: the input CSV file and the output CSV file.
+# The input CSV file should contain student preferences in the following format:
+# Student, Friend1, Friend1_Points, Friend2, Friend2_Points, Language1, Language1_Points, Language2, Language2_Points, Time1, Time1_Points, Time2, Time2_Points
+# The output CSV file will contain the group assignments, languages, times, formats, and happiness scores.
+
 from ortools.linear_solver import pywraplp
 import csv
 import sys
@@ -130,7 +154,12 @@ def optimize_group_assignment(students, groups, happiness_matrix, languages, lan
         objective.SetCoefficient(W[s, g, f], meeting_format_preferences[s].get(f, 0))
     
     objective.SetMaximization()
-    
+
+
+    # Query the number of constraints and variables
+    print(f"Number of variables: {solver.NumVariables()}")
+    print(f"Number of constraints: {solver.NumConstraints()}")
+
     # Solve the optimization problem
     status = solver.Solve()
     if status == pywraplp.Solver.OPTIMAL:
@@ -195,9 +224,14 @@ if __name__ == "__main__":
     (students, happiness_matrix, language_preferences, \
      meeting_time_preferences, meeting_format_preferences) \
         = load_happiness_matrix_from_csv(filename)
-    groups = [1, 2]  # Define groups
-    languages = ['C++', 'Dart', 'Go', 'Haskell', 'JavaScript', 'Julia', \
-                 'Miniscript', 'Rust', 'Zig', 'Zip']  # Define possible languages
+    groups = [11, 12, 13, 14, 15, 16,17]  # Define groups
+    #languages = ['C++', 'Dart', 'Go', 'Haskell', 'JavaScript', 'Julia', \
+    #             'Miniscript', 'Rust', 'Zig', 'Zip']  # Define possible languages
+    # list for smaller set of students
+    languages = ['C++', 'GO', 'Kotlin', 'Lua', 'MATLAB', 'MiniScript', 'Ruby', 'Rust', 'SQL', 'Scala'];
+#    languages = ["Ada", "C#", "C++","Elixir", "GO", "JavaScript", "Kotlin", "Lisp", "Lua",
+#        "MATLAB","MiniScript", "Ruby","Rust", "Scala", "SQL", "Swift", "TypeScript", "WASM" ]
+
     times = ["Morning", "Afternoon", "Evening"]  # Define possible meeting times
     formats = ["In-person", "Virtual"]  # Define possible meeting formats
 
