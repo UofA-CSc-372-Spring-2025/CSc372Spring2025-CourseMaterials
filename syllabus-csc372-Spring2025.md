@@ -89,10 +89,10 @@ By the end of this class, students should be able to
 | Midterm2 <br> Chapel Overview I | <a href="https://www.youtube.com/watch?v=N2LWN3A9rck">ChapelCon 2024 tutorial</a>                                           |             |  |
 | **Week 11: 3/31-4/4**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Chapel Overview II, <br> Chapel Basics I | <a href="https://chapel-lang.org/docs/master/primers/learnChapelInYMinutes.html">Learn Chapel in Y Minutes</a>, <a href="https://wgpages.netlify.app/chapel/">Part 1 basic language features links in this larger tutorial</a>                                            | SA #7 (W) | SA #6 FP intermediate (M 3/31)          |
+| Chapel Overview II, <br> Chapel Basics I | <a href="https://chapel-lang.org/docs/master/primers/learnChapelInYMinutes.html">Learn Chapel in Y Minutes</a>, <a href="https://wgpages.netlify.app/chapel/">Part 1 basic language features links in this larger tutorial</a>                                            | SA #7 (F) | SA #6 FP intermediate (M 3/31)          |
 | **Week 12: 4/7-4/11**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Chapel Basics II, <br> Parallelism and Chapel | TBD                                           | LA #3 (F) | SA #7 (W)          |
+| Chapel Basics II, <br> Parallelism and Chapel | TBD                                           | LA #3 (F) | SA #7 (F)          |
 | **Week 13: 4/14-4/18**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | Chapel large assignment,<br> Classes & Memory Safety | TBD                                           |            |  |
