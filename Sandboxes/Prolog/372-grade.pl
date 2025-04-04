@@ -28,7 +28,8 @@ can_reach_goal(SA, LA, ICA, MT1, MT2, Extra, Goal,
     
     % Define available remaining points.
     % Valid on March 26th after MT2 and LA2
-    SAleft = 45, LAleft = 40, FPleft = 200, ICAleft = 30, 
+    % Valid on April 4th after ICA10 and SA6
+    SAleft = 30, LAleft = 40, FPleft = 200, ICAleft = 20, 
     FinalExamLeft = 200, ExtraMax = 40,
 
     % Calculate current points
