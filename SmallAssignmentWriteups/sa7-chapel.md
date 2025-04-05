@@ -174,7 +174,8 @@ Hints:
 * an image file extension as a string (e.g., "png", "bmp"),
 * and the number of histogram buckets (numBuckets),
 
-returns a 1D array representing a histogram of image sizes (where image size is width * height).
+returns a 1D array representing a histogram of image sizes (where image size is width * height)
+for the files with the given image file etension.
 
 The histogram should be an array of length numBuckets. Each bucket represents a range of image sizes, from 0 up to the maximum size found. The range of each bucket is:
 ```
