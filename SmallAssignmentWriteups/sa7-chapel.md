@@ -11,7 +11,7 @@ CSc 372 Spring 2025 Assignment
 * [What and how to submit](#submit)
 
 
-**Due Wednesday, April 9, 2025 at 11:59PM**
+**Due Friday, April 11, 2025 at 11:59PM**
 
 You can work with anyone on this assignment.  
 I especially recommend asking questions on the Chapel
@@ -21,8 +21,6 @@ Each student does need to submit an assignment for autograding.
 
 # Overview
 <a name="overview"/></a>
-
-FIXME: Testing: sorted array of image sizes is correct hardcode for them and do in auto grader, result of edge detection same also hardcode, check something on mp4, maybe 2d and 1d histogram of image sizes and push sorting to la3
 
 The purpose of this assignment is to help you to learn to program in 
 Chapel.  The last large assignment (LA3) will be doing 
@@ -37,14 +35,14 @@ You will be submitting your assignment to Gradescope.
 
 ## GitHub Setup
 
-Accept the github assignment at FIXME[https://classroom.github.com/a/P5LRyqxv](https://classroom.github.com/a/P5LRyqxv)
+Accept the github assignment at [https://classroom.github.com/a/Q0I6iV8a](https://classroom.github.com/a/Q0I6iV8a)
 and do a git clone of your repository.  Make sure to `git commit -a` and
 `git push` frequently!  The initial github repository will include the 
 following files:
  * sa7.chpl
  * sa7-student-tests.chpl, note that the autograder will use different tests
  * sa7-chapel.md
- * ImageDir/*.FIXME
+ * ImageDir/*
  * README.md
 
 Startup the chapel-gasnet docker container:
@@ -98,11 +96,9 @@ Here are some resources you might want to reference.
 
 
 
-* Real world example in Chai, FIXME: https://github.com/Iainmon/ChAI/blob/b4df21b3ad4c45ce445842174f5c7270d35819bb/lib/Utilities.chpl
+* Real world example in Chai: https://github.com/Iainmon/ChAI/blob/b4df21b3ad4c45ce445842174f5c7270d35819bb/lib/Utilities.chpl
   * Figuring out an image type, https://github.com/Iainmon/ChAI/blob/b4df21b3ad4c45ce445842174f5c7270d35819bb/lib/Utilities.chpl#L321
-* Demo FIXME: https://www.youtube.com/watch?v=5x3Lsn-yOD0
-  * FIXME: where is life.chpl?
-  * FIXME: link to Image module code, or tell them how to get there from Image.html
+* Demo of using Image package: https://www.youtube.com/watch?v=5x3Lsn-yOD0
 * Chapel con 24 tutorial session with the Image module: https://youtu.be/N2LWN3A9rck?si=rC6KOuXgrjJB6p9h&t=765
 
 
