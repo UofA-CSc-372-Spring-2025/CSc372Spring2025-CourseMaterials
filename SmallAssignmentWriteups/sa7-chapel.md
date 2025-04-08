@@ -223,10 +223,11 @@ https://en.wikipedia.org/wiki/Grayscale#Converting_color_to_grayscale.
 
 The prototype for the procedure is as follows:
 ```
-proc rgbToGrayscale(rgbImage : [?d] int) : [d] int;
+proc rgbToGrayscale(rgbImage : [?d] pixelType) : [d] pixelType;
 ```
 
 Hint:
+* You need to take the gray value (Y above) and stuff it into the red, blue, and green values.
 * This example from the Chapel Image package might be especially relevant.
 ```
 use Image;
@@ -244,7 +245,7 @@ returns a new array with the Sobel edge
 detection results.
 The prototype for the procedure is as follows:
 ```
-proc sobelEdgeDetection(grayScale : [?d] int) : [d] int;
+proc sobelEdgeDetection(grayScale : [?d] pixelType) : [d] pixelType;
 ```
 
 Below is most of the Sobel edge detection computation.
@@ -255,18 +256,19 @@ domain of the `edge` array should be.
 const Gx = [[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]];
 const Gy = [[-1, -2, -1], [ 0,  0,  0], [ 1,  2,  1]];
 
-var edge: [TODO] real;
+var edgeTriples: [TODO] real;
 
 forall i in TODO do
   forall j in TODO {
     var sumX = 0, sumY = 0;
     for di in -1..1 do
       for dj in -1..1 {
-        const pixel = image[i+di, j+dj];
+        const pixel = colors[i+di, j+dj](0);
         sumX += pixel * Gx[di+1][dj+1];
         sumY += pixel * Gy[di+1][dj+1];
       }
-    edge[i, j] = sqrt(sumX**2 + sumY**2) : int;
+    var value = sqrt(sumX**2 + sumY**2) : int;
+    edge[i, j] = (value,value,value);
   }
 ```
 Assume that your original image has `numRow` rows and `numCol` columns.
@@ -288,6 +290,8 @@ There will be more thorough testing for grading.
 
 NOTE: As of April 4th, the Gradescope assignment is not set up.  
 It will get set up sometime before Monday night April 7th.
+Has been set up as of Monday April 7th at 8:15pm.  Already submitted assignments
+have been regraded.
 
 As soon as you have the file listed above, submit preliminary versions of your 
 work to gradescope. Keep submitting until your work is complete; we keep the
