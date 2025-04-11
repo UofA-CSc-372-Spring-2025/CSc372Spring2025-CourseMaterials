@@ -95,7 +95,7 @@ By the end of this class, students should be able to
 | Chapel Basics II, <br> Parallelism and Chapel | TBD                                           | LA #3 (F) | SA #7 (F)          |
 | **Week 13: 4/14-4/18**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Chapel large assignment,<br> Classes & Memory Safety | TBD                                           |            |  |
+| Chapel large assignment,<br> Classes & Memory Safety | LA3 writeup,<br><a href=https://chapel-lang.org/blog/posts/memory-safety/>Blog post about memory safety</a>                                           |            |  |
 | **Week 14: 4/21-4/25**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | More parallelism and performance, <br> Guest Speaker | TBD                                           |  | LA #3 (F) |
