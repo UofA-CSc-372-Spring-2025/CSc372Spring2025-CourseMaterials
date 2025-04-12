@@ -92,7 +92,7 @@ By the end of this class, students should be able to
 | Chapel Overview II, <br> Chapel Basics I | <a href="https://chapel-lang.org/docs/master/primers/learnChapelInYMinutes.html">Learn Chapel in Y Minutes</a>, <a href="https://wgpages.netlify.app/chapel/">Part 1 basic language features links in this larger tutorial</a>                                            | <a href=https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa7-chapel.md>SA #7</a> (F) | SA #6 FP intermediate (M 3/31)          |
 | **Week 12: 4/7-4/11**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Chapel Basics II, <br> Parallelism and Chapel | TBD                                           | LA #3 (F) | SA #7 (F)          |
+| Chapel Basics II, <br> Parallelism and Chapel | TBD                                           | <a href="https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/LargeAssignmentWriteups/la3-par.md">LA #3 (F)</a> | SA #7 (F)          |
 | **Week 13: 4/14-4/18**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | Chapel large assignment,<br> Classes & Memory Safety | LA3 writeup,<br><a href=https://chapel-lang.org/blog/posts/memory-safety/>Blog post about memory safety</a>                                           |            |  |
