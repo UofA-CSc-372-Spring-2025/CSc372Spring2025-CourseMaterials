@@ -107,9 +107,9 @@ Accept the github assignment at [https://classroom.github.com/a/l1LCdokX](https:
 and do a git clone of your repository.  Make sure to `git commit -a` and
 `git push` frequently!  The initial github repository will include the 
 following files or directories:
-- `la2_serial.chpl`
-- `la2_parallel.chpl`
-- `la2_student_tests.chpl`
+- `la3_serial.chpl`
+- `la3_parallel.chpl`
+- `la3_student_tests.chpl`
 - `InputDir`
 - `SOutputDir`
 - `POutputDir`
