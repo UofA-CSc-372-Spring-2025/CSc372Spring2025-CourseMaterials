@@ -59,31 +59,31 @@ sometime this weekend.
 
 ## Implementation Details
 You are provided the following files:
-    * `la3_serial.chpl` - This is the original code that performs the listed functionalities in a serial fashion.
-    * `la3_parallel.chpl` - This is the starting code that you will edit to improve the performance of the code.
-            The code starts out as a copy of `la3_serial.chpl`.
-    * `la3_student_tests.chpl` - This is the code that will run the functions in both `la3_serial.chpl` and 
-            `la3_parallel.chpl`, calculate the timing performance improvement, and compare the output files to 
-            verify that they are the same.  Output files from `la3_parallel.chpl` will be stored in the 
-            subdirectory `POutputDir`.
+ * `la3_serial.chpl` - This is the original code that performs the listed functionalities in a serial fashion.
+ * `la3_parallel.chpl` - This is the starting code that you will edit to improve the performance of the code. The code starts out as a copy of `la3_serial.chpl`.
+ * `la3_student_tests.chpl` - This is the code that will run the functions in both `la3_serial.chpl` and `la3_parallel.chpl`, calculate the timing performance improvement, and compare the output files to verify that they are the same.  Output files from `la3_parallel.chpl` will be stored in the subdirectory `POutputDir`.
 
 Compile the code by typing:
-    `chpl --fast la3_student_tests.chpl`
+```
+  chpl --fast la3_student_tests.chpl
+```
 
 Execute the code by typing:
-    `./la3_student_tests.chpl`
+```
+  ./la3_student_tests.chpl
+```
 
 The output will look like this (but with different timings for your machine):
-`runSerial execution time: 1.58586 seconds`
-`runParallel execution time: 1.19322 seconds`
-`Improvement = 32.9049%`
-`PASS: SerialOutputDir/alligator_edge.png and ParallelOutputDir/alligator_edge.png are the same`
-`PASS: SerialOutputDir/alligator_gray.png and ParallelOutputDir/alligator_gray.png are the same`
-`PASS: SerialOutputDir/flower_edge.png and ParallelOutputDir/flower_edge.png are the same`
-`PASS: SerialOutputDir/flower_gray.png and ParallelOutputDir/flower_gray.png are the same`
-`PASS: SerialOutputDir/white-flowers_edge.png and ParallelOutputDir/white-flowers_edge.png are the same`
-`PASS: SerialOutputDir/white-flowers_gray.png and ParallelOutputDir/white-flowers_gray.png are the same`
-`All tests completed.`
+```
+runSerial execution time: 1.58586 seconds
+runParallel execution time: 1.19322 seconds
+Improvement = 32.9049%
+PASS: SerialOutputDir/alligator_edge.png and ParallelOutputDir/alligator_edge.png are the same
+PASS: SerialOutputDir/alligator_gray.png and ParallelOutputDir/alligator_gray.png are the same
+PASS: SerialOutputDir/flower_edge.png and ParallelOutputDir/flower_edge.png are the same
+...
+All tests completed.
+```
 
 ## Deliverable
 You will be submitting the Chapel file (`la3_parallel.chpl`) implementing the optimized code and a brief description of how you optimized the code in the comment header.
