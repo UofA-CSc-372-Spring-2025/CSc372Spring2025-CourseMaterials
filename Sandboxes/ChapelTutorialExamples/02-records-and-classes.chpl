@@ -23,8 +23,9 @@ use Math;
     }
   }
   // c1 is a nilable class
-  var c1: Circle? = new shared Circle(radius=1.0);
+  var c1: Circle; //? = new shared Circle(radius=1.0);
+  //c1 = new shared Circle(radius=1.0);
   var c2 = c1;         // aliases c1’s circle
-  c1!.radius = 5.0;
-  writeln(c2!.radius);  // prints 5.0
+  c1.radius = 5.0;
+  writeln(c2.radius);  // prints 5.0
 }

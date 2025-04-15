@@ -16,7 +16,7 @@
 
 // The number of tasks to use per locale.  Specify on command line with 
 // --tasksPerLocal=n, where n is some number.
-config const tasksPerLocale = 1;
+config const tasksPerLocale = here.maxTaskPar;
 
 // Creates a task per locale
 coforall loc in Locales do on loc {
@@ -27,3 +27,10 @@ coforall loc in Locales do on loc {
   }
 }
 
+writeln();
+writeln("Output from forall loop follows:");
+var numTasks = Locales.size*tasksPerLocale;
+forall i in 0..#numTasks {
+    writeln("Hello world! (from iter ", i, " of ", numTasks,
+            " on locale ", here.id, " of ", numLocales, ")");
+}

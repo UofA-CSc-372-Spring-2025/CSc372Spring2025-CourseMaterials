@@ -20,8 +20,9 @@ config const n = 10;
 {
   var D = {1..n, 1..n};
   var A: [D] real;
-  forall (i,j) in D with (ref A) do
-    A[i,j] = i + (j - 0.5)/n;
+  //forall (i,j) in D with (ref A) do
+  forall (i,j) in D do
+    A[i,j-1] = i + (j - 0.5)/n;
   writeln(A);
 }
 

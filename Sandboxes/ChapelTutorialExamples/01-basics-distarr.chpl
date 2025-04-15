@@ -1,10 +1,11 @@
 writeln("Hello from locale ", here.id);
-
-var A: [1..2, 1..2] real;
+config const up=2;
 
 use BlockDist;
+var D = blockDist.createDomain({1..up, 1..up});
 
-var D = blockDist.createDomain({1..3, 1..3});
+var A: [D] real;
+
 writeln("D = ");
 writeln(D);
 var B: [D] real;
