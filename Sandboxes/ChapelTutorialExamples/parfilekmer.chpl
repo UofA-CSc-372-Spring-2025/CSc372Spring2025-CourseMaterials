@@ -18,6 +18,9 @@ config const dir = "DataDir";   // subdirectory for all data
 var fList = findFiles(dir);
 var filenames = blockDist.createArray(0..#fList.size,string);
 filenames = fList;
+writeln("fList = ", fList);
+writeln();
+writeln("filenames = ", filenames);
 
 // per file kmer count
 forall f in filenames {

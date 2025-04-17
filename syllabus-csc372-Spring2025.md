@@ -104,7 +104,7 @@ By the end of this class, students should be able to
 | Iterators and generators, <br> Outro: language comparisons  | TBD                                           | SA #8 (T) is Final Review | FP (F 5/2)*          |
 | **Week 16: 5/5-5/11 (Last day of classes: 5/7)** |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**   
-| Final Exam Review <br> No class on 5/8 | | |  SA #8 (T) is Final Review |
+| Final Exam Review on 5/6 <br> No class on 5/8 | | |  SA #8 (T) is Final Review |
 | **Final Exams: 5/9-5/15**    | **Our final exam: 5/14, 3:30-5:30 PM**        |  |  |
 
 

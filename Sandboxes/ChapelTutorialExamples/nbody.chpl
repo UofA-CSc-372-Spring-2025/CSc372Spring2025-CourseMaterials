@@ -75,6 +75,13 @@ proc main() {
 
   writef("%.9r\n", energy());     // print the initial energy
 
+  writef("%.9er\n", energy());     // print the initial energy
+  writef("%.9er\n", energy());     // print the initial energy
+
+  writef("%7.2r\n", energy());     // print the initial energy
+  writef("%i\n", energy());     // print the initial energy
+  writef("%er\n", energy());     // print the initial energy
+
   for 1..n do                     // simulate 'n' timesteps
     advance(0.01);
 

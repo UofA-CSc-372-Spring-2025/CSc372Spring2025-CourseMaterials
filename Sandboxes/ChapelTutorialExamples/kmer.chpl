@@ -41,5 +41,5 @@ for ind in 0..<(sequence.size-k) {
 
 writeln("Number of unique k-mers in ", infilename, " is ", nkmerCounts.size);
 writeln();
-writeln("nkmerCounts = ");
-writeln(nkmerCounts);
+//writeln("nkmerCounts = ");
+//writeln(nkmerCounts);
