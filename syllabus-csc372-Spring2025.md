@@ -193,7 +193,6 @@ The final project is a group project and will include both a programming aspect 
     * (4 points) Create a study guide/cheat sheet for a graded quiz or exam.
     * (2 points) Document and send an error from the course materials to the instructor.  Note you have to email the documented error BEFORE the error has been fixed.
     * (2 points) Document an error produced by an LLM or AI generator with a screenshot and an explanation about why it is an error.  The error must be related to the course material.
-* (10 points) Do one extra peer review of the term project.  Can only be done once for extra credit.
 * Only one of the below options can be done.  And it can only be done once for extra credit.
     * (20 points) Before MT1, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
     * (10 points) Before MT2, show Dr. Strout a draft of your code portfolio for job interviews during office hours, or a virtual meeting, and discuss for 10 minutes.
