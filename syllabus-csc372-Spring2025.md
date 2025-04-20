@@ -86,7 +86,7 @@ By the end of this class, students should be able to
 | Prolog wrapup and Comparing PLs <br> Visiting Speaker: Joe Strout, creator of Miniscript | [Reread Dr. Ray Toal on Why Study PLs with a focus on Evaluation Criteria](https://cs.lmu.edu/~ray/notes/plstudy/), <a href="https://en.wikipedia.org/wiki/Comparison_of_programming_languages">Comparison of Programming languages</a>, <a href="https://hyperpolyglot.org/">Some cool side-by-side comparisons</a>, <a href=https://miniscript.org/files/Strout_iSTEM-Ed2021.pdf>3.5 page paper on Miniscript</a>                                           | <a href="https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/FinalProject/final-Project-CS372-Spring-2025.pdf">FP</a> and <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqJ8GWl9oZZE-JrBpu0smyyNdHD5_488noR5L6g_UgRPvxYg/viewform">SA#6</a> (M) | SA #5 (W) is MT2 review, LA #2 (Sunday 3/23)          | 
 | **Week 10: 3/24-3/28**       |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
-| Midterm2 <br> Chapel Overview I | <a href="https://www.youtube.com/watch?v=N2LWN3A9rck">ChapelCon 2024 tutorial</a>                                           |             |  |
+| Midterm 2 <br> Chapel Overview I | <a href="https://www.youtube.com/watch?v=N2LWN3A9rck">ChapelCon 2024 tutorial</a>                                           |             |  |
 | **Week 11: 3/31-4/4**        |  |
 | **Topics**                  | **Reading/Watching**                          | **Released**        | **Due**            |
 | Chapel Overview II, <br> Chapel Basics I | <a href="https://chapel-lang.org/docs/master/primers/learnChapelInYMinutes.html">Learn Chapel in Y Minutes</a>, <a href="https://wgpages.netlify.app/chapel/">Part 1 basic language features links in this larger tutorial</a>                                            | <a href=https://github.com/UofA-CSc-372-Spring-2025/CSc372Spring2025-CourseMaterials/blob/main/SmallAssignmentWriteups/sa7-chapel.md>SA #7</a> (F) | SA #6 FP intermediate (M 3/31)          |
@@ -249,7 +249,7 @@ Requests for incomplete (I) or withdrawal (W)  must be made in accordance with U
 
 ## Honors Credit
 
-Students wishing to contract this course for Honors Credit should e-mail me to set up an appointment to discuss the terms of the contact and to sign the Honors Course Contract Request Form. The form is available at [http://www.honors.arizona.edu/honors-contracts](http://www.honors.arizona.edu/honors-contracts) 
+Students wishing to contract this course for Honors Credit should e-mail me to set up an appointment to discuss the terms of the contract and to sign the Honors Course Contract Request Form. The form is available at [http://www.honors.arizona.edu/honors-contracts](http://www.honors.arizona.edu/honors-contracts) 
 
 
 
@@ -332,7 +332,7 @@ If you are unwilling to meet the expectations and guidelines below, then please 
     * For projects, I recommend that as a group you establish specific expectations regarding
       * how and how often you will communicate
       * how and how often you will meet (e.g. in person or virtually)
-      * how you will divide up work (keeping in mind that you everyone should be involved in all parts of the project)
+      * how you will divide up work (keeping in mind that everyone should be involved in all parts of the project)
       * how you will share your work (e.g., GitHub)
       * how you will format your code (i.e. expectations for style/documentation)
       * any other group expectations you think are important
