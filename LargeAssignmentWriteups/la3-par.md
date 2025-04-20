@@ -11,7 +11,7 @@ CSc 372 Spring 2025 Assignment
 * [What and how to submit](#submit)
 
 
-**Due Sunday, April 25, 2025 at 11:59PM**
+**Due Friday, April 25, 2025 at 11:59PM**
 
 In this assignment, you will implement a Chapel program that does edge detection on a list of images
 that are of various sizes and then improve the speed by parallelizing that program and dealing with
