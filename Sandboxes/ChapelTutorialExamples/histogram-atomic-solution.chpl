@@ -15,8 +15,8 @@ config const printRandomNumbers: bool = true, // print random numbers to screen
              numBuckets: int = 10;            // number of histogram buckets
 
 // seed the random stream with something reproducible?
-config const useRandomSeed = false,
-             seed = if useRandomSeed then SeedGenerator.oddCurrentTime else 314159265;
+config const useRandomSeed = true;
+
 
 // global variables
 var X: [1..numNumbers] real,                    // array of random numbers
@@ -30,7 +30,9 @@ writef(" Number of Buckets        = %{########}\n", numBuckets);
 writeln();
 
 // fill array with random numbers (using standard Random module)
-fillRandom(X, seed, algorithm=RNG.NPB);
+if useRandomSeed
+  then fillRandom(X);
+  else fillRandom(X, 314159265);
 
 // output array of random numbers
 if printRandomNumbers then
@@ -55,7 +57,7 @@ if printHistogram then
   outputHistogram(histogramCopy);
 
 proc computeHistogram(X: [] real, ref histogram: [] atomic int) {
-  for x in X do
+  forall x in X do
     histogram[1 + (x / (1.0 / numBuckets)): int].add(1);
 }
 
