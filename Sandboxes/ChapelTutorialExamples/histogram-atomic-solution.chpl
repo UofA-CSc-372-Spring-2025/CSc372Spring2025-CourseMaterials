@@ -57,7 +57,7 @@ if printHistogram then
   outputHistogram(histogramCopy);
 
 proc computeHistogram(X: [] real, ref histogram: [] atomic int) {
-  for x in X do
+  forall x in X do
     histogram[1 + (x / (1.0 / numBuckets)): int].add(1);
 }
 
